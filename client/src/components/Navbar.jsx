@@ -1,7 +1,7 @@
 
 function Navbar() {
     return (
-        <div>
+        <div className="position-absolute">
             Navbar
         </div>
     )
