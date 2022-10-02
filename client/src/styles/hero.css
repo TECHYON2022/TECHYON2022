@@ -1,0 +1,42 @@
+.hero-bg{
+    position: relative;
+    width: 100%;
+}
+
+.hero-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.hero-date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.hero-img{
+    height: 550px;
+    width: 600px;
+}
+
+.college-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 8px;
+}
+
+.btn-custom{
+    background-color: #ED0E29;
+    border: 1px solid #000000;
+    color: white;
+}
+
+.my-n7{
+    margin-top: -7rem;
+    margin-bottom: -7rem;
+}
