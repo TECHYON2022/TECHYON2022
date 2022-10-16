@@ -17,7 +17,7 @@ const SingleParticipantSchema =  mongoose.Schema({
 {
   timestamps: true 
 });
-SingleParticipantSchema.plugin(mongooseSerial, { field:"participantNo",digits:1});
+SingleParticipantSchema.plugin(mongooseSerial, { field:"participantNo",digits:3});
 
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
