@@ -1,5 +1,4 @@
 import express from "express";
-import mongoose from "mongoose"
 import bodyParser from "body-parser"
 import cors from 'cors'
 import path from 'path';
@@ -9,7 +8,7 @@ import connectDB from '../server/config/db.js'
 const app = express();
 const __dirname = path.resolve();
 
- //JSON
+// JSON
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -33,11 +32,7 @@ app.use(express.static("public"));
 // });
 
 
-
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
-//database connection
-
-connectDB();

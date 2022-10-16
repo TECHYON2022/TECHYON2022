@@ -57,22 +57,22 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem3_Name: {
         type: String,
-        
+        // required:true
        
     },
     mem3_Contact: {
         type: Number,
-        
+        // required: true,
         unique: true
     },
     mem3_email: {
         type: String,
-        
+        // required: true,
         lowercase:true,
     },
     mem3_college: {
         type: String,
-    
+        // required: true
     },
     mem4_Name: {
         type: String,
@@ -80,52 +80,53 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem4_Contact: {
         type: Number,
+        // required: true,
         unique: true
     },
     mem4_email: {
         type: String,
-
+        // required: true,
         lowercase:true,
     },
     mem4_college: {
         type: String,
-        
+        // required: true
     },
     mem5_Name: {
         type: String,
-
+        // required: true
     },
     mem5_Contact: {
         type: String,
-    
+        // required: true,
         unique: true
     },
     mem5_email: {
         type: String,
-    
+        // required: true,
         lowercase:true,
     },
     mem5_college: {
         type: String,
-        
+        // required: true
     },
     mem6_Name: {
         type: String,
-        
+        // required: true
     },
     mem6_Contact: {
         type: String,
-    
+        // required: true,
         unique: true
     },
     mem6_email: {
         type: String,
-    
+        // required: true,
         lowercase:true,
     },
     mem6_college: {
         type: String,
-        
+        // required: true
     },
     
     
