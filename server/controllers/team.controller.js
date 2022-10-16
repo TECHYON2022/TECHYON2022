@@ -1,6 +1,6 @@
 
 import {Ideate , CodeCrunch} from '../models/team.model.js'
-import mongoose from 'mongoose'
+
 
 
 
@@ -20,7 +20,6 @@ export const postEvent = async (req, res) => {
                 await codecrunch.sendmail()
                 res.status(200).send(codecrunch)
                 break
-
         }
     }
     catch (err) {

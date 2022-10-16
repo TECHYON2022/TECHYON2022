@@ -8,7 +8,7 @@ import mongooseSerial from "mongoose-serial";
 const TeamParticipentSchema = new mongoose.Schema({
     teamNo:{
         type:String,
-        // required:true
+        
     },
     eventName: {
         type: String,
@@ -23,7 +23,7 @@ const TeamParticipentSchema = new mongoose.Schema({
         required: true
     },
     mem1_Contact: {
-        type: String,
+        type: Number,
         required: true,
         unique: true
     },
@@ -33,50 +33,45 @@ const TeamParticipentSchema = new mongoose.Schema({
         lowercase:true,
     },
     mem1_college: {
-        type: String,
-        required: true
+        type: String
     },
     mem2_Name: {
         type: String,
-        required: true
+        required:true
     },
     mem2_Contact: {
         type: Number,
-        required: true,
+        required:true,
         unique: true
     },
     mem2_email: {
         type: String,
-        required: true,
+        required:true,
         lowercase:true,
     },
     mem2_college: {
-        type: String,
-        required: true
+        type: String
 
     },
     mem3_Name: {
         type: String,
         
-       
     },
     mem3_Contact: {
-        type: Number,
-        
+        type: Number, 
         unique: true
     },
     mem3_email: {
         type: String,
-        
         lowercase:true,
     },
     mem3_college: {
         type: String,
-    
     },
+    // },
     mem4_Name: {
         type: String,
-        required: true
+       
     },
     mem4_Contact: {
         type: Number,
@@ -84,56 +79,47 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem4_email: {
         type: String,
-
         lowercase:true,
     },
     mem4_college: {
         type: String,
-        
     },
     mem5_Name: {
         type: String,
 
     },
     mem5_Contact: {
-        type: String,
-    
+        type: Number,
         unique: true
     },
     mem5_email: {
         type: String,
-    
         lowercase:true,
     },
     mem5_college: {
         type: String,
-        
     },
     mem6_Name: {
         type: String,
-        
     },
     mem6_Contact: {
-        type: String,
-    
+        type: Number,
         unique: true
     },
     mem6_email: {
         type: String,
-    
         lowercase:true,
     },
     mem6_college: {
         type: String,
-        
-    },
+    }
     
     
 
 
 })
 
-TeamParticipentSchema.plugin(mongooseSerial, { field:"teamNo",digits:1});
+TeamParticipentSchema.plugin(mongooseSerial, { field:"teamNo",digits:3});
 
 
 
