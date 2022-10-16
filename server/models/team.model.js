@@ -55,10 +55,10 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem3_Name: {
         type: String,
-        
     },
     mem3_Contact: {
         type: Number, 
+
         unique: true
     },
     mem3_email: {
@@ -75,6 +75,7 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem4_Contact: {
         type: Number,
+        // required: true,
         unique: true
     },
     mem4_email: {
@@ -83,10 +84,11 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem4_college: {
         type: String,
+
     },
     mem5_Name: {
         type: String,
-
+        // required: true
     },
     mem5_Contact: {
         type: Number,
@@ -113,9 +115,6 @@ const TeamParticipentSchema = new mongoose.Schema({
     mem6_college: {
         type: String,
     }
-    
-    
-
 
 })
 
