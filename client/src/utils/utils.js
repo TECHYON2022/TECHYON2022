@@ -444,13 +444,13 @@ export const eventList = [
                 "The contest shall consist of solving a series of challenges to reach the goal.",
                 "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test."
             ],
-            round1_rules: [
+            "Round 1 rules": [
                 "1 Student/participant.",
                 "25 MCQ/Questions to be answered in 60min.",
                 "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
                 "Internet access is allowed."
             ],
-            round2_rules: [
+            "Round 2 rules": [
                 "1 Student/participant.",
                 "15 Questions to be answered in 45min.",
                 "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
@@ -498,13 +498,13 @@ export const eventList = [
                 "The contest shall consist of solving a series of challenges to reach the goal.",
                 "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test."
             ],
-            round1_rules: [
+            "Round 1 rules": [
                 "1 Student/participant.",
                 "25 MCQ/Questions to be answered in 60min.",
                 "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
                 "Internet access is allowed."
             ],
-            round2_rules: [
+            "Round 2 rules": [
                 "1 Student/participant.",
                 "15 Questions to be answered in 45min.",
                 "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
@@ -552,13 +552,13 @@ export const eventList = [
                 "The contest shall consist of solving a series of challenges to reach the goal.",
                 "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test."
             ],
-            round1_rules: [
+            "Round 1 rules": [
                 "1 Student/participant.",
                 "25 MCQ/Questions to be answered in 60min.",
                 "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
                 "Internet access is allowed."
             ],
-            round2_rules: [
+            "Round 2 rules": [
                 "1 Student/participant.",
                 "15 Questions to be answered in 45min.",
                 "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
@@ -606,13 +606,13 @@ export const eventList = [
                 "The contest shall consist of solving a series of challenges to reach the goal.",
                 "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test."
             ],
-            round1_rules: [
+            "Round 1 rules": [
                 "1 Student/participant.",
                 "25 MCQ/Questions to be answered in 60min.",
                 "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
                 "Internet access is allowed."
             ],
-            round2_rules: [
+            "Round 2 rules": [
                 "1 Student/participant.",
                 "15 Questions to be answered in 45min.",
                 "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
