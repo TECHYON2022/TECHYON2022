@@ -57,14 +57,16 @@ const Form = ({ isMobile, eventDetails }) => {
         eventName: eventDetails.eventName,
         teamName: teamName,
         ...member1,
-        ...member2
+        ...member2,
+        ...member3
       });
       axios
         .post("http://localhost:8000/team/", {
           eventName: eventDetails.eventName,
           teamName: teamName,
           ...member1,
-          ...member2
+          ...member2,
+          ...member3
         })
         .then((res) => {
           console.log("Registered");
@@ -164,7 +166,6 @@ const Form = ({ isMobile, eventDetails }) => {
       ...member1,
       mem1_Name: e.target.value
     })
-    console.log("change")
   }
 
   const handleMem1Email = (e) => {
