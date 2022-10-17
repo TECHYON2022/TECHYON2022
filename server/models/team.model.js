@@ -8,7 +8,6 @@ import mongooseSerial from "mongoose-serial";
 const TeamParticipentSchema = new mongoose.Schema({
     teamNo:{
         type:String,
-        
     },
     eventName: {
         type: String,
@@ -58,8 +57,6 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem3_Contact: {
         type: Number, 
-
-        unique: true
     },
     mem3_email: {
         type: String,
@@ -67,55 +64,7 @@ const TeamParticipentSchema = new mongoose.Schema({
     },
     mem3_college: {
         type: String,
-    },
-    // },
-    mem4_Name: {
-        type: String,
-       
-    },
-    mem4_Contact: {
-        type: Number,
-        // required: true,
-        unique: true
-    },
-    mem4_email: {
-        type: String,
-        lowercase:true,
-    },
-    mem4_college: {
-        type: String,
-
-    },
-    mem5_Name: {
-        type: String,
-        // required: true
-    },
-    mem5_Contact: {
-        type: Number,
-        unique: true
-    },
-    mem5_email: {
-        type: String,
-        lowercase:true,
-    },
-    mem5_college: {
-        type: String,
-    },
-    mem6_Name: {
-        type: String,
-    },
-    mem6_Contact: {
-        type: Number,
-        unique: true
-    },
-    mem6_email: {
-        type: String,
-        lowercase:true,
-    },
-    mem6_college: {
-        type: String,
     }
-
 })
 
 TeamParticipentSchema.plugin(mongooseSerial, { field:"teamNo",digits:3});
@@ -164,8 +113,6 @@ TeamParticipentSchema.methods.sendmail = async function () {
 
 export const Ideate = mongoose.model('Ideate', TeamParticipentSchema)
 export const CodeCrunch=mongoose.model('CodeCrunch',TeamParticipentSchema)
-
-// export default {Ideate,CodeCrunch}
 
 
 

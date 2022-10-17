@@ -23,6 +23,8 @@ app.get("/", (req, res) => {
   res.send("I'm Working!!");
 });
 
+connectDB();
+
 const PORT = 8000;
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);

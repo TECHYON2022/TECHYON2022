@@ -1,43 +1,39 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../styles/form.css";
 
 const Form = ({ isMobile, eventDetails }) => {
   const [isTeam, setIsTeam] = useState(eventDetails.team);
-  const [isMember, setIsMember] = useState(1);
-  const [nameI, setName] = useState("");
-  const [emailI, setEmail] = useState("");
-  const [phoneI, setPhone] = useState("");
-  const [collegeI, setCollege] = useState("");
+  const [participant, setParticipant] = useState({
+    name: "",
+    email: "",
+    rollno: "",
+    phone_no: null,
+    college: "",
+  });
+  const [isMember, setIsMember] = useState(2);
   const [teamName, setTeamName] = useState("");
+  const [team, setTeam] = useState();
 
-  let member = [
-    {
-      member_name: "",
-      phone_no: "",
-      member_email: "",
-      college: "",
-    },
-    {
-      member_name: "",
-      phone_no: "",
-      member_email: "",
-      college: "",
-    },
-    {
-      member_name: "",
-      phone_no: "",
-      member_email: "",
-      college: "",
-    },
-  ];
-
-  // const [formData, setFormData] = useState({
-  //     name: '',
-  //     phone_no: null,
-  //     email: '',
-  //     eventName: eventDetails.eventName
-  // });
+  const [member1, setMember1] = useState({
+    mem1_Name: "",
+    mem1_email: "",
+    mem1_Contact: null,
+    mem1_college: ""
+  });
+  const [member2, setMember2] = useState({
+    mem2_Name: "",
+    mem2_email: "",
+    mem2_Contact: null,
+    mem2_college: ""
+  });
+  const [member3, setMember3] = useState({
+    mem3_Name: "",
+    mem3_email: "",
+    mem3_Contact: null,
+    mem3_college: ""
+  });
 
   const memberType = [
     { id: 2, value: "2" },
@@ -55,80 +51,200 @@ const Form = ({ isMobile, eventDetails }) => {
 
   const handleTeamSubmit = (e) => {
     e.preventDefault();
+
     if (isTeam) {
       console.log({
         eventName: eventDetails.eventName,
         teamName: teamName,
-        mem1_Name: member[0].member_name,
-        mem1_Contact: member[0].phone_no,
-        mem1_email: member[0].member_email,
-        mem1_college: member[0].college,
-        mem2_Name: member[1].member_name,
-        mem2_Contact: member[1].phone_no,
-        mem2_email: member[1].member_email,
-        mem2_college: member[1].college,
-        mem3_Name: member[2].member_name,
-        mem3_Contact: member[2].phone_no,
-        mem3_email: member[2].member_email,
-        mem3_college: member[2].college,
+        ...member1,
+        ...member2
       });
       axios
-        .post("http://localhost:8000/teamEvent/", {
+        .post("http://localhost:8000/team/", {
           eventName: eventDetails.eventName,
           teamName: teamName,
-          mem1_Name: member[0].member_name,
-          mem1_Contact: member[0].phone_no,
-          mem1_email: member[0].member_email,
-          mem1_college: member[0].college,
-          mem2_Name: member[1].member_name,
-          mem2_Contact: member[1].phone_no,
-          mem2_email: member[1].member_email,
-          mem2_college: member[1].college,
-          mem3_Name: member[2].member_name,
-          mem3_Contact: member[2].phone_no,
-          mem3_email: member[2].member_email,
-          mem3_college: member[2].college,
+          ...member1,
+          ...member2
         })
         .then((res) => {
           console.log("Registered");
           setTeamName("");
-        })
-        .catch((err) => {
-          console.log(err.message);
-        });
-    }
-  }
+          setMember1({
+            mem1_Name: "",
+            mem1_email: "",
+            mem1_Contact: null,
+            mem1_college: ""
+          })
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!isTeam) {
-      console.log({
-        name: nameI,
-        phone_no: phoneI,
-        email: emailI,
-        college: collegeI,
-        eventName: eventDetails.eventName,
-      });
-      axios
-        .post("http://localhost:8000/singleParticipant/", {
-          name: nameI,
-          phone_no: phoneI,
-          email: emailI,
-          college: collegeI,
-          eventName: eventDetails.eventName,
-        })
-        .then((res) => {
-          console.log("registered");
-          setName("");
-          setEmail("");
-          setPhone();
-          setCollege();
+          setMember2({
+            mem2_Name: "",
+            mem2_email: "",
+            mem2_Contact: null,
+            mem2_college: ""
+          })
+
+          setMember3({
+            mem3_Name: "",
+            mem3_email: "",
+            mem3_Contact: null,
+            mem3_college: ""
+          })
         })
         .catch((err) => {
           console.log(err.message);
         });
     }
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log({ ...participant });
+    if (!isTeam) {
+      axios
+        .post("http://localhost:8000/singleParticipant/", {
+          ...participant,
+          eventName: eventDetails.eventName,
+        })
+        .then((res) => {
+          console.log("registered");
+          setParticipant({
+            name: "",
+            email: "",
+            rollno: "",
+            phone_no: null,
+            college: "",
+          });
+        })
+        .catch((err) => {
+          console.log(err.message);
+        });
+    }
+  };
+
+    // individual participant
+  const handleNameChange = (e) => {
+    setParticipant({
+      ...participant,
+      name: e.target.value,
+    });
+  };
+
+  const handleEmailChange = (e) => {
+    setParticipant({
+      ...participant,
+      email: e.target.value,
+    });
+  };
+
+  const handlePhoneChange = (e) => {
+    setParticipant({
+      ...participant,
+      phone_no: e.target.value,
+    });
+  };
+
+  const handleRollnoChange = (e) => {
+    setParticipant({
+      ...participant,
+      rollno: e.target.value,
+    });
+  };
+
+  const handleCollegeChange = (e) => {
+    setParticipant({
+      ...participant,
+      college: e.target.value,
+    });
+  };
+
+  //team participants 
+  // member1
+  const handleMem1Name = (e) => {
+    setMember1({
+      ...member1,
+      mem1_Name: e.target.value
+    })
+    console.log("change")
+  }
+
+  const handleMem1Email = (e) => {
+    setMember1({
+      ...member1,
+      mem1_email: e.target.value
+    })
+  }
+
+  const handleMem1Contact = (e) => {
+    setMember1({
+      ...member1,
+      mem1_Contact: e.target.value
+    })
+  }
+
+  const handleMem1College = (e) => {
+    setMember1({
+      ...member1,
+      mem1_college: e.target.value
+    })
+  }
+
+  //member2
+  const handleMem2Name = (e) => {
+    setMember2({
+      ...member2,
+      mem2_Name: e.target.value
+    })
+  }
+
+  const handleMem2Email = (e) => {
+    setMember2({
+      ...member2,
+      mem2_email: e.target.value
+    })
+  }
+
+  const handleMem2Contact = (e) => {
+    setMember2({
+      ...member2,
+      mem2_Contact: e.target.value
+    })
+  }
+
+  const handleMem2College = (e) => {
+    setMember2({
+      ...member2,
+      mem2_college: e.target.value
+    })
+  }
+
+  // member 3
+  const handleMem3Name = (e) => {
+    setMember3({
+      ...member3,
+      Mem3_Name: e.target.value
+    })
+  }
+
+  const handleMem3Email = (e) => {
+    setMember3({
+      ...member3,
+      Mem3_email: e.target.value
+    })
+  }
+
+  const handleMem3Contact = (e) => {
+    setMember3({
+      ...member3,
+      Mem3_Contact: e.target.value
+    })
+  }
+
+  const handleMem3College = (e) => {
+    setMember3({
+      ...member3,
+      Mem3_college: e.target.value
+    })
+  }
 
   return (
     <div className="d-flex row justify-content-between h-auto">
@@ -150,34 +266,35 @@ const Form = ({ isMobile, eventDetails }) => {
               className="w-100 form-input pl-3 mt-4"
               id="name"
               placeholder="Name:"
-              onChange={e => setName(e.target.value)}
+              onChange={handleNameChange}
             />
             <input
               type="email"
               className="w-100 form-input pl-3 mt-4"
               id="email"
               placeholder="Email:"
-              onChange={e => setEmail(e.target.value)}
+              onChange={handleEmailChange}
             />
             <input
               type="text"
               className="w-100 form-input pl-3 mt-4"
               id="roll_no"
               placeholder="Roll no.:"
+              onChange={handleRollnoChange}
             />
             <input
               type="phone"
               className="w-100 form-input pl-3 mt-4"
               id="phone_no"
               placeholder="Phone no.:"
-              onChange={e => setPhone(e.target.value)}
+              onChange={handlePhoneChange}
             />
             <input
               type="text"
               className="w-100 form-input pl-3 mt-4"
               id="college"
               placeholder="College:"
-              onChange={e => setCollege(e.target.value)}
+              onChange={handleCollegeChange}
             />
             <button className="btn form-btn mt-5" type="submit">
               Submit
@@ -185,7 +302,10 @@ const Form = ({ isMobile, eventDetails }) => {
           </form>
         )}
         {isTeam === true && (
-          <form onSubmit={handleTeamSubmit} className="d-flex row justify-content-center">
+          <form
+            onSubmit={handleTeamSubmit}
+            className="d-flex row justify-content-center"
+          >
             <input
               type="text"
               className="w-100 form-input pl-3 mt-4"
@@ -199,7 +319,7 @@ const Form = ({ isMobile, eventDetails }) => {
               id="name"
               placeholder="Team Name:"
               onChange={(e) => {
-                setTeamName(e.target.value)
+                setTeamName(e.target.value);
               }}
             />
             <select
@@ -233,37 +353,28 @@ const Form = ({ isMobile, eventDetails }) => {
                   className="w-100 form-input pl-3"
                   id="mem1_name"
                   placeholder="Name:"
-                  onChange={(e) => {
-                    // member1.name = e.target.value;
-                    member[0].member_name= e.target.value;
-                  }}
+                  onChange={handleMem1Name}
                 />
                 <input
                   type="email"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem1_email"
                   placeholder="Email:"
-                  onChange={(e) => {
-                    member[0].member_email = e.target.value;
-                  }}
+                  onChange={handleMem1Email}
                 />
                 <input
                   type="phone"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem1_phone_no"
                   placeholder="Phone no.:"
-                  onChange={(e) => {
-                    member[0].phone_no = e.target.value;
-                  }}
+                  onChange={handleMem1Contact}
                 />
-                <input 
+                <input
                   type="text"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem1_college"
                   placeholder="College:"
-                  onChange={(e) => {
-                    member[0].college = e.target.value;
-                  }}
+                  onChange={handleMem1College}
                 />
               </>
             )}
@@ -277,37 +388,28 @@ const Form = ({ isMobile, eventDetails }) => {
                   className="w-100 form-input pl-3"
                   id="mem2_name"
                   placeholder="Name:"
-                  onChange={(e) => {
-                    // member1.name = e.target.value;
-                    member[1].member_name = e.target.value;
-                  }}
+                  onChange={handleMem2Name}
                 />
                 <input
                   type="email"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem2_email"
                   placeholder="Email:"
-                  onChange={(e) => {
-                    member[1].member_email = e.target.value;
-                  }}
+                  onChange={handleMem2Email}
                 />
                 <input
                   type="phone"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem2_phone_no"
                   placeholder="Phone no.:"
-                  onChange={(e) => {
-                    member[1].phone_no = e.target.value;
-                  }}
+                  onChange={handleMem2Contact}
                 />
-                <input 
+                <input
                   type="text"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem2_college"
                   placeholder="College:"
-                  onChange={(e) => {
-                    member[1].college = e.target.value;
-                  }}
+                  onChange={handleMem2College}
                 />
               </>
             )}
@@ -321,37 +423,28 @@ const Form = ({ isMobile, eventDetails }) => {
                   className="w-100 form-input pl-3"
                   id="mem3_name"
                   placeholder="Name:"
-                  onChange={(e) => {
-                    // member1.name = e.target.value;
-                    member[2].member_name = e.target.value;
-                  }}
+                  onChange={handleMem3Name}
                 />
                 <input
                   type="email"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem3_email"
                   placeholder="Email:"
-                  onChange={(e) => {
-                    member[2].member_email = e.target.value;
-                  }}
+                  onChange={handleMem3Email}
                 />
                 <input
                   type="phone"
                   className="w-100 form-input pl-3 mt-4"
                   id="mem3_phone_no"
                   placeholder="Phone no.:"
-                  onChange={(e) => {
-                    member[2].phone_no = e.target.value;
-                  }}
+                  onChange={handleMem3Contact}
                 />
-                <input 
+                <input
                   type="text"
                   className="w-100 form-input pl-3 mt-4"
                   id="me31_college"
                   placeholder="College:"
-                  onChange={(e) => {
-                    member[2].college = e.target.value;
-                  }}
+                  onChange={handleMem3College}
                 />
               </>
             )}
