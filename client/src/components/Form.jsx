@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import "../styles/form.css";
 
@@ -14,26 +16,27 @@ const Form = ({ isMobile, eventDetails }) => {
   });
   const [isMember, setIsMember] = useState(2);
   const [teamName, setTeamName] = useState("");
-  const [team, setTeam] = useState();
 
   const [member1, setMember1] = useState({
     mem1_Name: "",
     mem1_email: "",
     mem1_Contact: null,
-    mem1_college: ""
+    mem1_college: "",
   });
   const [member2, setMember2] = useState({
     mem2_Name: "",
     mem2_email: "",
     mem2_Contact: null,
-    mem2_college: ""
+    mem2_college: "",
   });
   const [member3, setMember3] = useState({
     mem3_Name: "",
     mem3_email: "",
     mem3_Contact: null,
-    mem3_college: ""
+    mem3_college: "",
   });
+
+  const navigate = useNavigate();
 
   const memberType = [
     { id: 2, value: "2" },
@@ -58,41 +61,51 @@ const Form = ({ isMobile, eventDetails }) => {
         teamName: teamName,
         ...member1,
         ...member2,
-        ...member3
+        ...member3,
       });
       axios
-        .post("http://localhost:8000/team/", {
+        .post("/team", {
           eventName: eventDetails.eventName,
           teamName: teamName,
           ...member1,
           ...member2,
-          ...member3
+          ...member3,
         })
         .then((res) => {
-          console.log("Registered");
+          toast.success("Registration complete for " + eventDetails.eventName, {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
           setTeamName("");
           setMember1({
             mem1_Name: "",
             mem1_email: "",
             mem1_Contact: null,
-            mem1_college: ""
-          })
+            mem1_college: "",
+          });
 
           setMember2({
             mem2_Name: "",
             mem2_email: "",
             mem2_Contact: null,
-            mem2_college: ""
-          })
+            mem2_college: "",
+          });
 
           setMember3({
             mem3_Name: "",
             mem3_email: "",
             mem3_Contact: null,
-            mem3_college: ""
-          })
+            mem3_college: "",
+          });
         })
         .catch((err) => {
+          toast.error("Invalid entry please try again...")
           console.log(err.message);
         });
     }
@@ -103,12 +116,21 @@ const Form = ({ isMobile, eventDetails }) => {
     console.log({ ...participant });
     if (!isTeam) {
       axios
-        .post("http://localhost:8000/singleParticipant/", {
+        .post("/singleParticipant", {
           ...participant,
           eventName: eventDetails.eventName,
         })
         .then((res) => {
-          console.log("registered");
+          toast.success("Registration complete for " + eventDetails.eventName, {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
           setParticipant({
             name: "",
             email: "",
@@ -118,12 +140,13 @@ const Form = ({ isMobile, eventDetails }) => {
           });
         })
         .catch((err) => {
+          toast.error("Invalid entry please try again...")
           console.log(err.message);
         });
     }
   };
 
-    // individual participant
+  // individual participant
   const handleNameChange = (e) => {
     setParticipant({
       ...participant,
@@ -159,93 +182,93 @@ const Form = ({ isMobile, eventDetails }) => {
     });
   };
 
-  //team participants 
+  //team participants
   // member1
   const handleMem1Name = (e) => {
     setMember1({
       ...member1,
-      mem1_Name: e.target.value
-    })
-  }
+      mem1_Name: e.target.value,
+    });
+  };
 
   const handleMem1Email = (e) => {
     setMember1({
       ...member1,
-      mem1_email: e.target.value
-    })
-  }
+      mem1_email: e.target.value,
+    });
+  };
 
   const handleMem1Contact = (e) => {
     setMember1({
       ...member1,
-      mem1_Contact: e.target.value
-    })
-  }
+      mem1_Contact: e.target.value,
+    });
+  };
 
   const handleMem1College = (e) => {
     setMember1({
       ...member1,
-      mem1_college: e.target.value
-    })
-  }
+      mem1_college: e.target.value,
+    });
+  };
 
   //member2
   const handleMem2Name = (e) => {
     setMember2({
       ...member2,
-      mem2_Name: e.target.value
-    })
-  }
+      mem2_Name: e.target.value,
+    });
+  };
 
   const handleMem2Email = (e) => {
     setMember2({
       ...member2,
-      mem2_email: e.target.value
-    })
-  }
+      mem2_email: e.target.value,
+    });
+  };
 
   const handleMem2Contact = (e) => {
     setMember2({
       ...member2,
-      mem2_Contact: e.target.value
-    })
-  }
+      mem2_Contact: e.target.value,
+    });
+  };
 
   const handleMem2College = (e) => {
     setMember2({
       ...member2,
-      mem2_college: e.target.value
-    })
-  }
+      mem2_college: e.target.value,
+    });
+  };
 
   // member 3
   const handleMem3Name = (e) => {
     setMember3({
       ...member3,
-      Mem3_Name: e.target.value
-    })
-  }
+      Mem3_Name: e.target.value,
+    });
+  };
 
   const handleMem3Email = (e) => {
     setMember3({
       ...member3,
-      Mem3_email: e.target.value
-    })
-  }
+      Mem3_email: e.target.value,
+    });
+  };
 
   const handleMem3Contact = (e) => {
     setMember3({
       ...member3,
-      Mem3_Contact: e.target.value
-    })
-  }
+      Mem3_Contact: e.target.value,
+    });
+  };
 
   const handleMem3College = (e) => {
     setMember3({
       ...member3,
-      Mem3_college: e.target.value
-    })
-  }
+      Mem3_college: e.target.value,
+    });
+  };
 
   return (
     <div className="d-flex row justify-content-between h-auto">
@@ -464,6 +487,7 @@ const Form = ({ isMobile, eventDetails }) => {
           alt="form_IMG"
         />
       )}
+      <ToastContainer />
     </div>
   );
 };
