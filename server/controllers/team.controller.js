@@ -7,8 +7,8 @@ import {Ideate , CodeCrunch} from '../models/team.model.js'
 export const postEvent = async (req, res) => {
 
     try {
-        console.log(req.body.eventName)
-        const eventName = req.body.eventName
+        const eventName = req.body.eventName;
+        console.log(eventName);
         switch (eventName) {
             case 'Ideate':
                 const ideate = await Ideate.create(req.body)
@@ -23,6 +23,7 @@ export const postEvent = async (req, res) => {
         }
     }
     catch (err) {
+        console.log(err);
         res.status(422).send(err)
     }
 
