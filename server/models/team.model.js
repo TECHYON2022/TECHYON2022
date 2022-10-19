@@ -100,19 +100,34 @@ TeamParticipentSchema.methods.sendmail = async function () {
      
 
       // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-   
       // Preview only available when sending through an Ethereal account
-     
-
-
-
-
+    
 }
 
 
-
+//comp department team-events
 export const Ideate = mongoose.model('Ideate', TeamParticipentSchema)
 export const CodeCrunch=mongoose.model('CodeCrunch',TeamParticipentSchema)
+export const Data_Hack=mongoose.model('Data_Hack',TeamParticipentSchema)
+
+//IT dept
+export const Weave_the_Web=mongoose.model('Weave_the_Web',TeamParticipentSchema)
+export const Game_Jam=mongoose.model('Game_Jam',TeamParticipentSchema)
+
+//Etc/Ecomp
+export const Ancient_Ruins=mongoose.model('Ancient_Ruins',TeamParticipentSchema)
+export const Escape_Room=mongoose.model('Escape_Room',TeamParticipentSchema)
+export const Line_Follower=mongoose.model('Line_Follower',TeamParticipentSchema)
+export const Pitch_Tank=mongoose.model('Pitch_Tank',TeamParticipentSchema)
+export const Electronic_Art=mongoose.model('Electronic_Art',TeamParticipentSchema)
+export const Call_of_Duty=mongoose.model('Call_of_Duty',TeamParticipentSchema)
+
+//Mech 
+export const Bridge_Building=mongoose.model('Bridge_Building',TeamParticipentSchema)
+export const Mechanism_Building=mongoose.model('Mechanism_Building',TeamParticipentSchema)
+export const Robo_Race=mongoose.model('Robo_Race',TeamParticipentSchema)
+
+
 
 
 
