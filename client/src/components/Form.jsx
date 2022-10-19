@@ -487,7 +487,7 @@ const Form = ({ isMobile, eventDetails }) => {
           alt="form_IMG"
         />
       )}
-      <ToastContainer />
+      
     </div>
   );
 };

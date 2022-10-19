@@ -1,5 +1,5 @@
 hr{
-    border-top: 2px solid #ED0E29;
+    border-top: 2px solid var(--primary-color);
 }
 
 .w-15{
@@ -9,7 +9,7 @@ hr{
 .timeline-item{
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #ED0E29;
+    border-left: 2px solid var(--primary-color);
     position: relative;
     font-family: 'Inter';
 }
@@ -23,6 +23,6 @@ hr{
     left: -9px;
     bottom: 0;
     top: 35%;
-    background: #ED0E29;
-    border: 2px solid #ED0E29;
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
 }

@@ -7,5 +7,5 @@
 }
 
 .rule-title{
-    color: #ED0E29;
+    color: var(--primary-color);
 }
