@@ -16,50 +16,71 @@ function Event() {
 
   if (event)
     return (
-      <div className="event-page-container container">
-        <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5">
-          <hr className="w-15" />
-          <div className="fs-24 w-25 text-center">{event.eventName}</div>
-          <hr className="w-15" />
+      <div className="background-pattern">
+        <div className="event-page-container container">
+          <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5">
+            <hr className="w-15" />
+            <div className="fs-24 w-25 text-center">{event.eventName}</div>
+            <hr className="w-15" />
+          </div>
+          <Box
+            sx={{ display: { md: "flex" }, gap: " 5vw", py: "2rem" }}
+            className="event-container"
+          >
+            <Box sx={{ maxWidth: { md: "40%" } }} className="poster-container">
+              <img src={event.poster} alt="" />
+            </Box>
+            <Box className="details-container">
+              <p>Department: {event.department}</p>
+              <p>Type: {event.type}</p>
+              <p>Date: {event.date}</p>
+              <p>Time: {event.time}</p>
+              <p>Location: {event.location}</p>
+              <button
+                onClick={() =>
+                  navigate(`/registration/${id}`, {
+                    state: {
+                      id: event.id,
+                      eventName: event.eventName,
+                      team: event.team,
+                    },
+                  })
+                }
+                className="btn form-btn px-5"
+              >
+                REGISTER
+              </button>
+              <h3 className="my-3">Instruction: </h3>
+              {Object.keys(event.rules).map((key, index) => {
+                return (
+                  <Box key={index}>
+                    <h4 className="rule-title">{key}</h4>
+                    <ul className="rule-list">
+                      {event.rules[key].map((rule, keyIndex) => (
+                        <li key={keyIndex}>{rule}</li>
+                      ))}
+                    </ul>
+                  </Box>
+                );
+              })}
+
+              <h4 className="rule-title">Coordinator</h4>
+              {event.event_coordinators.map((coordinator, index) => (
+                <p>
+                  
+                  <a href={coordinator.phone} rel="noreferrer" target="_blank">
+                    <img
+                      src="/assets/images/socials/whatsapp.png"
+                      alt="whatsapp"
+                      className="wa-icon mx-3"
+                    />
+                  </a>
+                  {coordinator.name}
+                </p>
+              ))}
+            </Box>
+          </Box>
         </div>
-        <Box
-          sx={{ display: { md: "flex" }, gap: " 5vw" }}
-          className="event-container"
-        >
-          <Box sx={{ maxWidth: { md: "40%" } }} className="poster-container">
-            <img src={event.poster} alt="" />
-          </Box>
-          <Box className="details-container">
-            <p>Department: {event.department}</p>
-            <p>Type: {event.type}</p>
-            <p>Date: {event.date}</p>
-            <p>Time: {event.time}</p>
-            <p>Location: {event.location}</p>
-            <button
-              onClick={() => navigate(`/registration/${id}`, { state: {
-                id: event.id, 
-                eventName: event.eventName,
-                team: event.team
-              }})}
-              className="btn form-btn px-5"
-            >
-              REGISTER
-            </button>
-            <h3 className="my-3">Instruction: </h3>
-            {Object.keys(event.rules).map((key, index) => {
-              return (
-                <Box key={index}>
-                  <h4 className="rule-title">{key}</h4>
-                  <ul className="rule-list">
-                    {event.rules[key].map((rule, keyIndex) => (
-                      <li key={keyIndex}>{rule}</li>
-                    ))}
-                  </ul>
-                </Box>
-              );
-            })}
-          </Box>
-        </Box>
       </div>
     );
   else return <h3>Loading..</h3>;
