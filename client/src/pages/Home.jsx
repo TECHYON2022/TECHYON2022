@@ -7,7 +7,7 @@ import CoordinatorList from "../components/CoordinatorList"
 
 function Home() {
   return (
-    <div className="homepage">
+    <div className="homepage background-pattern">
       <Hero />
       <Timeline />
       <Sponser />

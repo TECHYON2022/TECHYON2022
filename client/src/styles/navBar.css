@@ -8,7 +8,7 @@
     text-decoration: none;
     font-family: 'poppins';
     font-weight: 600;
-    color: #ED0E29;
+    color: rgba(255, 255, 255, 0.945);
 }
 .nav-link{
     color: white;
