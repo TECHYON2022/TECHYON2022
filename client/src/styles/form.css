@@ -18,8 +18,8 @@
     width: 30%;
     height: 9px;
 
-    background: linear-gradient(180deg, #ED0E29 0%, rgba(21, 21, 21, 0.97) 100%);
-    border: 1px solid #ED0E29;
+    background: linear-gradient(180deg, var(--primary-color) 0%, rgba(21, 21, 21, 0.97) 100%);
+    border: 1px solid var(--primary-color);
 }
 
 .form-input{
@@ -40,7 +40,9 @@
 
 .form-btn{
     box-sizing: border-box;
-    background: linear-gradient(180deg, #ED0E29 8.85%, rgba(237, 14, 41, 0.0364583) 99.99%, rgba(237, 14, 41, 0) 100%);
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(180deg, var(--primary-color) 8.85%, rgba(237, 14, 41, 0.0364583) 99.99%, rgba(237, 14, 41, 0) 100%);
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 7px;

@@ -6,6 +6,8 @@ import About from "./pages/About";
 import Result from "./pages/Result";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
         <Route path="/result" element={<Result />} />
       </Routes>
       <Footer/>
+      <ToastContainer />
     </div>
   );
 };
