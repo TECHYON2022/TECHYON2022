@@ -3,6 +3,7 @@ import Timeline from "../components/Timeline";
 import Sponser from "../components/Sponser";
 import EventList from "../components/EventList";
 import CoordinatorList from "../components/CoordinatorList"
+import About from "../pages/About"
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <Sponser />
       <EventList />
       <CoordinatorList />
+      <About />
     </div>
   );
 }

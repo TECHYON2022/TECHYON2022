@@ -24,14 +24,14 @@ function Sponser() {
           }}
           className="sponser-container"
         >
-          {sponserList.map(({ name, image }, id) => {
+          {sponserList.map(({ name, image, link }, id) => {
             return (
               <Box
                 sx={{ maxWidth: { sx: "10%", md: "20%" }, p: 1,  borderRadius: "5px"}}
                 className="sponser-item"
                 key={id}
               >
-                <img className="sponser-img" src={image} alt={name} />
+                <a href={link}><img className="sponser-img" src={image} alt={name} /></a>
               </Box>
             );
           })}

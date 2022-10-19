@@ -6,7 +6,7 @@ import { developerList, designerList } from "../utils/utils";
 
 function About() {
   return (
-    <div className="d-flex row justify-content-center position-relative mt-5 py-5 background-pattern">
+    <div className="d-flex row justify-content-center position-relative mt-5 py-5 container-fluid mx-auto">
       {/* team info and FAQ will go here */}
       <div className="ellipse w-100">
         <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-4">
@@ -62,21 +62,6 @@ function About() {
                 <h3 className="coordinator-title">{coordinator.name}</h3>
                 <p className="department-name">{coordinator.department}</p>
                 <p className="coordinator-role">{coordinator.role}</p>
-                <Box
-                  sx={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    mt: "1rem",
-                  }}
-                  className="btn-wa"
-                >
-                  <img
-                    src="/assets/images/socials/whatsapp.png"
-                    alt="whatsapp"
-                    className="wa-icon"
-                  />
-                </Box>
               </Box>
             </Box>
           );
@@ -130,34 +115,13 @@ function About() {
                 <h3 className="coordinator-title">{coordinator.name}</h3>
                 <p className="department-name">{coordinator.department}</p>
                 <p className="coordinator-role">{coordinator.role}</p>
-                <Box
-                  sx={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    mt: "1rem",
-                  }}
-                  className="btn-wa"
-                >
-                  <img
-                    src="/assets/images/socials/whatsapp.png"
-                    alt="whatsapp"
-                    className="wa-icon"
-                  />
-                </Box>
               </Box>
             </Box>
           );
         })}
       </Box>
 
-      {/* <div className="position-relative text-center w-100">
-        <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5">
-          <hr className="w-15" />
-          <div className="fs-24 w-25 text-center">Co-ordinator</div>
-          <hr className="w-15" />
-        </div>
-      </div> */}
+      
     </div>
   );
 }
