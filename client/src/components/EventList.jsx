@@ -63,9 +63,9 @@ function EventList() {
                     <Box
                       sx={{
                         p: 2,
-                        maxWidth: { xs: "100%", sm: "12rem" },
+                        maxWidth: { xs: "100%", sm: "22rem" },
                         fontSize: { xs: 10, md: 20 },
-                        display: { xs: "flex", sm: "block" },
+                        display: { xs: "block"},
                         alignItems: "center",
                         flexDirection: "row",
                         gap: { xs: 2, md: 0 }
@@ -75,7 +75,7 @@ function EventList() {
                       onClick={() => navigate(`/event/${event.id}`)}
                     >
                       <Box
-                        sx={{ maxWidth: { xs: "40%", sm: "100%" } }}
+                        sx={{ maxWidth: { xs: "100%", sm: "100%" } }}
                         className="thumbnail-container"
                       >
                         <img
@@ -84,7 +84,7 @@ function EventList() {
                           className="event-thumbnail"
                         />
                       </Box>
-                      <Box sx={{ maxWidth: { xs: "60%", sm: "100%" } }}>
+                      <Box >
                         <h3 className="event-title">{event.eventName}</h3>
                         <p className="department-name">{event.department}</p>
                       </Box>
@@ -98,34 +98,34 @@ function EventList() {
                   .map((event, index) => {
                     return (
                       <Box
-                        sx={{
-                          p: 2,
-                          maxWidth: { xs: "100%", sm: "12rem" },
-                          fontSize: { xs: 10, md: 20 },
-                          display: { xs: "flex", sm: "block" },
-                          alignItems: "center",
-                          flexDirection: "row",
-                          gap: { xs: 2, md: 0 }
-                        }}
-                        className="card"
-                        key={index}
-                        onClick={() => navigate(`/event/${event.id}`)}
+                      sx={{
+                        p: 2,
+                        maxWidth: { xs: "100%", md: "22rem" },
+                        fontSize: { xs: 10, md: 20 },
+                        display: { xs: "block"},
+                        alignItems: "center",
+                        flexDirection: "row",
+                        gap: { xs: 2, md: 0 }
+                      }}
+                      className="card"
+                      key={index}
+                      onClick={() => navigate(`/event/${event.id}`)}
+                    >
+                      <Box
+                        sx={{ maxWidth: { xs: "100%", sm: "100%" } }}
+                        className="thumbnail-container"
                       >
-                        <Box
-                          sx={{ maxWidth: { xs: "40%", sm: "100%" } }}
-                          className="thumbnail-container"
-                        >
-                          <img
-                            src={event.image}
-                            alt=""
-                            className="event-thumbnail"
-                          />
-                        </Box>
-                        <Box sx={{ maxWidth: { xs: "60%", sm: "100%" } }}>
-                          <h3 className="event-title">{event.eventName}</h3>
-                          <p className="department-name">{event.department}</p>
-                        </Box>
+                        <img
+                          src={event.image}
+                          alt=""
+                          className="event-thumbnail"
+                        />
                       </Box>
+                      <Box >
+                        <h3 className="event-title">{event.eventName}</h3>
+                        <p className="department-name">{event.department}</p>
+                      </Box>
+                    </Box>
                     );
                   })}
           </Box>

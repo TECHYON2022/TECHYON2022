@@ -117,7 +117,7 @@ const Navbar = () => {
                       <NavLink to={page.path} className={`link`}>
                         <div
                           onClick={() => {
-                            const anchor = document.getElementById("events");
+                            const anchor = document.getElementById("team");
                             anchor.scrollIntoView({ block: "center" });
                           }}
                         >

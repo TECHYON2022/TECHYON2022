@@ -6,7 +6,7 @@ import { developerList, designerList } from "../utils/utils";
 
 function About() {
   return (
-    <div className="d-flex row justify-content-center position-relative mt-5 py-5 container-fluid mx-auto">
+    <div id="team" className="d-flex row justify-content-center position-relative mt-5 py-5 container-fluid mx-auto">
       {/* team info and FAQ will go here */}
       <div className="ellipse w-100">
         <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-4">

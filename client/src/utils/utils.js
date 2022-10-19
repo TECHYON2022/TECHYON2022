@@ -1,41 +1,71 @@
 export const sponserList = [
   {
-    name: "SJ INNOVATION",
-    image: "/assets/images/sponsers/Sj_innovation.png",
+    name: "Visteon",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/visteon.png",
     link: ""
   },
   {
-    name: "SJ INNOVATION",
-    image: "/assets/images/sponsers/Sj_innovation.png",
+    name: "Bluelearn",
+    image: "/assets/images/sponsers/bluelearn.svg",
     link: ""
-  }
+  },
+  {
+    name: "Spintly",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/spintly.png",
+    link: ""
+  },
+  {
+    name: "Creative capsule",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/cCapsule.png",
+    link: ""
+  },
+  {
+    name: "Maxxcell",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/maxxcell.svg",
+    link: ""
+  },
+  {
+    name: "OneShield",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/oneShield.svg",
+    link: ""
+  },
+  {
+    name: "SJ Innovation",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/SJ.png",
+    link: ""
+  },
+  {
+    name: "Edot",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/edot.png",
+    link: ""
+  },
 ];
 
 export const developerList = [ {
     name: "Prathamesh Naik",
     department: "Computer",
-    role: "Cheif Coordinator",
-    image: "/assets/images/profileImages/aayush.jpg",
+    role: "Backend Developer",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Prathamesh1.jpg",
   },
   {
     name: "Melitta",
     department: "Computer",
-    role: "Cheif Coordinator",
-    image: "/assets/images/profileImages/aayush.jpg",
+    role: "Backend Developer",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Melitta.JPG",
   },];
 
 export const designerList = [
     {
-        name: "Rithika ",
+        name: "K L Rithika",
         department: "Computer",
-        role: "Cheif Coordinator",
-        image: "/assets/images/profileImages/aayush.jpg",
+        role: "UI/UX designer",
+        image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Rithika.jpg",
       },
       {
-        name: "Archana",
+        name: "Archana Uscaicar",
         department: "Computer",
-        role: "Cheif Coordinator",
-        image: "/assets/images/profileImages/aayush.jpg",
+        role: "UI/UX designer",
+        image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Archana.JPG",
       },
 ];
 
@@ -44,56 +74,56 @@ export const coordinatorList = [
     name: "Aayush Anand",
     department: "Computer",
     role: "Cheif Coordinator",
-    image: "/assets/images/profileImages/aayush.jpg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/COMP/Aayush_Anand1.jpg",
     wa: "https://wa.me/917666023650"
   },
   {
     name: "Shashank M. Kurbet",
     department: "Computer",
     role: "Cheif Coordinator",
-    image: "",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/COMP/Shashank_Kurbet1.jpg",
     wa: "https://wa.me/917972753427"
   },
   {
     name: "Abhijeet Singh",
     department: "EComputer",
     role: "Cheif Coordinator",
-    image: "",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/ETC/Abhijeet_Singh.jpg",
     wa: "https://wa.me/919421098900"
   },
   {
     name: "Priyanka H. Biradar",
     department: "EComputer",
     role: "Cheif Coordinator",
-    image: "",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/ETC/Priyanka_H_Biradar1.jpg",
     wa: "https://wa.me/918080158711"
   },
   {
     name: "Aafil Shaikh",
     department: "Information Technology",
     role: "Cheif Coordinator",
-    image: "",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/IT/Aafil_Shaikh1.jpg",
     wa: "https://wa.me/919172128696"
   },
   {
     name: "Shivam Korgaonkar",
     department: "Information Technology",
     role: "Cheif Coordinator",
-    image: "",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/IT/Shivam_Korgaonkar1.jpg",
     wa: "https://wa.me/917507986584"
   },
   {
     name: "Lohit Kumbhar",
     department: "Mechanical",
     role: "Cheif Coordinator",
-    image: "",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/MECH/Lohit_Kumbar.jpg",
     wa: "https://wa.me/qr/AGQWERVTJLM3A1"
   },
   {
     name: "Mohammed Saad Khan",
     department: "Mechanical",
     role: "Cheif Coordinator",
-    image: "",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/MECH/Saad_khan1.jpg",
     wa: "https://wa.me/qr/5YKWV6XRYLZLJ1"
   },
 ];
@@ -252,7 +282,7 @@ const computerEvents = [
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
     poster: "/assets/images/posters/comp/decrypt.jpg",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "/assets/images/thumbnail/rpa.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Ideate.png",
   },
   {
     id: 4,
@@ -414,7 +444,8 @@ const computerEvents = [
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
     poster: "/assets/images/posters/comp/decrypt.jpg",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Ideate.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Machine%20Learning%20Workshop.png",
+    
   }
 ];
 

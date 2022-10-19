@@ -8,7 +8,7 @@ function CoordinatorList() {
     <div className="coordinator-section">
       <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5">
         <hr className="w-15" />
-        <div className="fs-24 w-25 text-center">Co-Ordinators</div>
+        <div className="fs-24 w-25 text-center">Coordinators</div>
         <hr className="w-15" />
       </div>
       <Box
@@ -29,6 +29,7 @@ function CoordinatorList() {
                 maxWidth: { xs: "100%", sm: "14rem" },
                 display: { xs: "flex", sm: "block" },
                 alignItems: "center",
+                justifyContent: { xs: "space-around"},
                 flexDirection: "row",
                 gap: { xs: 2, md: 0 },
               }}
@@ -40,7 +41,7 @@ function CoordinatorList() {
                   maxWidth: { xs: "40%", sm: "100%" },
                   display: "flex",
                   alignItems: "center",
-                  justify: "center",
+                  justifyContent: "center",
                 }}
                 className="img-container"
               >
