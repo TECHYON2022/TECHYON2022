@@ -222,7 +222,7 @@ export const coordinatorList = [
     wa: "https://wa.me/917507986584"
   },
   {
-    name: "Lohit Kumbhar",
+    name: "Lohit Kumbar",
     department: "Mechanical",
     role: "Chief Coordinator",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/MECH/Lohit_Kumbar.jpg",

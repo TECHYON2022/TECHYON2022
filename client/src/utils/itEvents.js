@@ -48,7 +48,7 @@ export const itEvents = [
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/WTWA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/1.png",
   },
   {
     id: 22,
@@ -204,7 +204,7 @@ export const itEvents = [
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/IA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/3.png",
   },
     {
     id: 25,
@@ -261,7 +261,7 @@ export const itEvents = [
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/GDWA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/2.png",
   },
   {
     id: 26,
@@ -316,9 +316,9 @@ export const itEvents = [
     //No prize for the talk!
     prize: [],
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-    poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/3DPA4.png",
+    poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/rpa.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/rpa.png",
   },
     {
     id: 27,
@@ -378,7 +378,7 @@ export const itEvents = [
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/3DPA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/3dprint.png",
   },
   {
     id: 28,
@@ -491,8 +491,8 @@ export const itEvents = [
 
     prize: [],
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-    poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/3DPA4.png",
+    poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/GDWA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/gamedev.png",
   },
   ];
