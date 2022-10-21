@@ -53,6 +53,11 @@ export const sponserList = [
     link: ""
   },
   {
+    name: "Scada",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/scada.svg",
+    link: ""
+  },
+  {
     name: "Blive",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/blive.jpg",
     link: ""
@@ -103,7 +108,21 @@ export const sponserList = [
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/ETC.png",
     link: "#"
   },
-
+  {
+    name: "SUIT",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/SUIT.png",
+    link: "#"
+  },
+  {
+    name: "RACE",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/race.jpeg",
+    link: "#"
+  },
+  {
+    name: "Cosme",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/cosme.png",
+    link: "#"
+  },
   {
     name: "Cognibyte",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/cognibyre.png",
@@ -117,15 +136,15 @@ export const sponserList = [
 
   {
     name: "MINDSPARK22",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/ACE.png",
-    link: ""
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/mindspark.png",
+    link: "#"
   },
 
 
   {
     name: "MECHFEST",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/ACE.png",
-    link: ""
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/mechfest.png",
+    link: "#"
   },
 
 
