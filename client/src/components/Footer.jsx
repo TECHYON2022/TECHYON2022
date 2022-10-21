@@ -15,7 +15,7 @@ function Footer() {
             particle with speed more than the speed of the light.
           </p>
         </Box>
-        <Box sx ={{width: {sm: '50%'}, p: 2}} className="contact">
+        <Box sx ={{width: {sm: '50%'}, p: 2, margin: 0}} className="contact">
           <h3 className="contact-title">CONTACT US</h3>
           <p className="contact-description">
             Follow us over social media for updates and for any Queries contact
