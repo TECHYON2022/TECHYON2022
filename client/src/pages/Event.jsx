@@ -36,20 +36,12 @@ function Event() {
               <p>Date: {event.date}</p>
               <p>Time: {event.time}</p>
               <p>Location: {event.location}</p>
-              <button
-                onClick={() =>
-                  navigate(`/registration/${id}`, {
-                    state: {
-                      id: event.id,
-                      eventName: event.eventName,
-                      team: event.team,
-                    },
-                  })
-                }
+              <a
+                href={event.form} rel="noreferrer" target="_blank"
                 className="btn form-btn px-5"
               >
                 REGISTER
-              </button>
+              </a>
               <h3 className="my-3">Instruction: </h3>
               {Object.keys(event.rules).map((key, index) => {
                 return (
@@ -68,7 +60,7 @@ function Event() {
               {event.event_coordinators.map((coordinator, index) => (
                 <p>
                   
-                  <a href={`https://wa.me/91${coordinator.phone}`} rel="noreferrer" target="_blank">
+                  <a href={`https://wa.me/${coordinator.phone}`} rel="noreferrer" target="_blank">
                     <img
                       src="/assets/images/socials/whatsapp.png"
                       alt="whatsapp"
