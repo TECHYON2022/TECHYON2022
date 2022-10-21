@@ -68,7 +68,7 @@ function Event() {
               {event.event_coordinators.map((coordinator, index) => (
                 <p>
                   
-                  <a href={coordinator.phone} rel="noreferrer" target="_blank">
+                  <a href={`https://wa.me/91${coordinator.phone}`} rel="noreferrer" target="_blank">
                     <img
                       src="/assets/images/socials/whatsapp.png"
                       alt="whatsapp"
