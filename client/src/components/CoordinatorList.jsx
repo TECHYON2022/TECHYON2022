@@ -5,7 +5,7 @@ import "../styles/coordinator.css";
 
 function CoordinatorList() {
   return (
-    <div className="coordinator-section">
+    <div className="coordinator-section" id="teams">
       <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5">
         <hr className="w-15" />
         <div className="fs-24 w-25 text-center">Coordinators</div>
