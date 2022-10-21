@@ -54,7 +54,7 @@ const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            Techyon
+            <img src="/assets/images/techyon.png" alt="" className="main-logo" />
           </Typography>
 
           <Box
@@ -151,7 +151,7 @@ const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            Techyon
+            <img src="/assets/images/techyon.png" alt="" className="main-logo" />
           </Typography>
           <Box
             sx={{
