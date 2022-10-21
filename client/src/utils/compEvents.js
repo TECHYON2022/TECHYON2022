@@ -20,34 +20,24 @@ export const computerEvents = [
         },
       ],
       rules: {
-        Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
-        ],
         "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
+          "Problem statements will be posted on 25th October 2022, 9:00 am. Submissions close on.",
+          "Maximum 3(THREE) members per team",
+          "Teams can consist of members from different colleges/universities.",
+          "Developed solutions should be original and not copied.",
         ],
         "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
+          "10 teams will qualify for round 2.",
+          "Round 2 will be an online discussion round conducted on 29th October 2022.",
+          "Selected teams have to join an online session with judges.",
+          "The implementation of the solution will be discussed in detail and will be cross questioned by judges.",
           "Platform- Google Forms",
         ],
-        FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
-          "Decision taken by Co-Ordinators will be final in case any discrepancies!",
-        ],
       },
-      prize: [1500, 500],
+      prize: [12000, 9000, 4000],
       //!this is to be changed
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      form: "https://unstop.com/hackathon/datahack-powered-by-oneshield-techyon-2022-padre-conceicao-college-of-engineering-salcete-goa-462203",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/3.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/DataHack.png",
     },
@@ -73,8 +63,8 @@ export const computerEvents = [
       ],
       rules: {
         Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
+          "TEAM LEADERS WILL REGISTER ON UNSTOP AND FILL IN THE DETAILS OF ALL TEAM MEMBERS",
+          "REGISTRATIONS CLOSE BEFORE THE RELEASE OF DAY 1 TASKS.",
         ],
         "Round 1 rules": [
           "1 Student/participant.",
@@ -90,15 +80,15 @@ export const computerEvents = [
           "Platform- Google Forms",
         ],
         FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "2. Is there a registration fee? Ans - No registration fee",
+          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
-      prize: [1500, 500],
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      prize: [6000, 4000, 2000],
+      form: "https://unstop.com/p/codecrunch-powered-by-creative-capsule-techyon-2022-padre-conceicao-college-of-engineering-salcete-goa-462202",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/CodeCrunch.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
     },
@@ -123,34 +113,17 @@ export const computerEvents = [
         },
       ],
       rules: {
-        Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
-        ],
-        "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
-        ],
-        "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
-          "Platform- Google Forms",
-        ],
         FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "2. Is there a registration fee? Ans - No registration fee",
+          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
-      prize: [1500, 500],
+      prize: [2000, 1250, 750],
       //!this is to be changed
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      form: "https://bit.ly/ideate_comp",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/2.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Ideate.png",
     },
@@ -162,8 +135,8 @@ export const computerEvents = [
       type: "Intra",
       team: false,
       location: "Online",
-      date: "27th OCT",
-      time: "2 PM",
+      date: "28th OCT",
+      time: "9:45 am",
       event_coordinators: [
         {
           name: "K L Rithika",
@@ -177,34 +150,18 @@ export const computerEvents = [
         },
       ],
       rules: {
-        Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
-        ],
-        "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
-        ],
-        "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
-          "Platform- Google Forms",
-        ],
+        
         FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "2. Is there a registration fee? Ans - No registration fee",
+          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
       prize: [1500, 500],
       // this is to be changed
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      form: "https://bit.ly/decrypt_comp",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/Decrypt.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Decrypt.png",
     },
@@ -216,8 +173,8 @@ export const computerEvents = [
       type: "Intra",
       team: false,
       location: "Offline",
-      date: "27th OCT",
-      time: "2 PM",
+      date: "28th OCT",
+      time: "9 AM",
       event_coordinators: [
         {
           name: "Cyrus Mascarenhas",
@@ -231,34 +188,17 @@ export const computerEvents = [
         },
       ],
       rules: {
-        Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
-        ],
-        "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
-        ],
-        "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
-          "Platform- Google Forms",
-        ],
         FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "2. Is there a registration fee? Ans - Yes, registration fee of Rs.150",
+          "3. What should you have? Ans - A Device with internet access and the game installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
-      prize: [1500, 500],
+      prize: [2500, 1500],
       // this is to be changed
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      form: "https://bit.ly/efootball_comp",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/eFootbalPoster.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/eFootball™ 2023.png",
     },
@@ -271,7 +211,7 @@ export const computerEvents = [
       team: false,
       location: "Offline",
       date: "29th OCT",
-      time: "2 PM",
+      time: "9 AM",
       event_coordinators: [
         {
           name: "Sashreek Dhaimodkar",
@@ -285,34 +225,24 @@ export const computerEvents = [
         },
       ],
       rules: {
-        Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
+        "Description": [
+          "Machine learning is often hyped, but how does it work?",
+          "In this workshop, The speakers will show you hands-on how you can build your own machine-learning models.",
+          "We will cover basic machine learning concepts such as regression, classification, over-fitting, cross-validation, and many more.",
+          "After the workshop, you will go home with the basics of machine learning so you can start off on your own projects."
         ],
-        "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
-        ],
-        "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
-          "Platform- Google Forms",
-        ],
+
         FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "2. Is there a registration fee? Ans - No registration fee",
+          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
-      prize: [1500, 500],
+      prize: [],
       //!this is to be changed
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      form: "https://bit.ly/data_analytics_ml_comp",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/ML.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Machine%20Learning%20Workshop.png",
       
@@ -325,8 +255,8 @@ export const computerEvents = [
       type: "Intra",
       team: false,
       location: "Offline",
-      date: "29th OCT",
-      time: "2 PM",
+      date: "27th OCT",
+      time: "9 AM",
       event_coordinators: [
         {
           name: "Sashreek Dhaimodkar",
@@ -340,33 +270,17 @@ export const computerEvents = [
         },
       ],
       rules: {
-        Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
-        ],
-        "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
-        ],
-        "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
-          "Platform- Google Forms",
-        ],
+       
         FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "2. Is there a registration fee? Ans - No registration fee",
+          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
-      prize: [1500, 500],
+      prize: [],
       //!this is to be changed
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+      form: "https://bit.ly/3d_modeling_comp",
       poster: "/assets/images/posters/comp/decrypt.jpg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/3DModelingUsingBlender.png",
@@ -395,34 +309,25 @@ export const computerEvents = [
         },
       ],
       rules: {
-        Rules: [
-          "The contest shall consist of solving a series of challenges to reach the goal.",
-          "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
-        ],
-        "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
-        ],
-        "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
-          "Platform- Google Forms",
+        "Some Key Takeaways:": [
+          "Learn basic Linux Commands",
+          "Learn to the setup git in your system",
+          "Why Git?",
+          "Learn the tools.",
+          "What is docker",
+          "Find out how to use the docker.",
+          "Learn react basics and create react app"
         ],
         FAQs: [
-          "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-          "2. Is there a registration fee? <br/> Ans - No registration fee",
-          "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
-          "Decision taken by Co-Ordinators will be final in case any discrepancies!",
+          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "2. Is there a registration fee? Ans - No registration fee",
+          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
         ],
       },
-      prize: [1500, 500],
+      prize: [],
       //!this is to be changed
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      form: "https://bit.ly/frontend101_comp",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/1.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/FrontEnd%20101%20Workshop.png",
       

@@ -35,7 +35,7 @@ export const nationalEvents = [
           "5.	Developed solutions should be original and not copied.",
           "6.	Use of existing templates is prohibited, however APIs if required can be used.",
         ],
-        "Round 2 rules": [
+        "Round 2": [
           "1.	10 teams will qualify for round 2.",
           "2.	Round 2 will be online discussion round conducted on 29th October 2022.",
           "3.	Selected teams have to join an online session with judges.",
@@ -58,7 +58,7 @@ export const nationalEvents = [
         ],
       },
      prize: [15000, 10000, 5000],
-      form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+      form: "https://unstop.com/hackathon/hacktech-powered-by-visteon-techyon-2022-padre-conceicao-college-of-engineering-salcete-goa-462143",
       poster: "/assets/images/posters/comp/decrypt.jpg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/HackTech.png",

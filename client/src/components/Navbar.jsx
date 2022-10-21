@@ -16,7 +16,7 @@ const pages = [
   { name: "Home", path: "/" },
   { name: "Events", path: "" },
   { name: "Team", path: "" },
-  { name: "Result", path: "result" },
+  // { name: "Result", path: "result" },
 ];
 
 const Navbar = () => {

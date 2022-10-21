@@ -45,7 +45,7 @@ export const itEvents = [
       ],
     },
     prize: [6000,4000,2000],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://unstop.com/p/weave-the-web-techyon-2022-padre-conceicao-college-of-engineering-salcete-goa-462438",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/WTWA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/1.png",
@@ -93,7 +93,7 @@ export const itEvents = [
       ],
     },
     prize: [4000, 2500, 1500],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSes_VSlm9klXj2Ej-DW30DmQdZ38XMuU9HWAMZdj_sDZuGc_g/viewform?usp=sf_link",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/CSA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/CS169.png",
@@ -152,7 +152,7 @@ export const itEvents = [
       ],
     },
     prize: [2000,1000],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSfLXoitCQTDU9lAudQFFGINSOGYxIos4mrVL1FCLrEuLBXG2Q/viewform?usp=sf_link",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/MMQA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/MMQ169.png",
@@ -201,7 +201,7 @@ export const itEvents = [
       ],
     },
     prize: [2000, 1000],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLScNpE8GsXianC6cO32Abd2FNPdstJz335hvz0TxT5m6YPY0iQ/viewform?usp=sf_link",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/IA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/3.png",
@@ -258,8 +258,8 @@ export const itEvents = [
       ],
     },
     prize: [2000, 1000],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
-    poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/GDWA4.png",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSfAZk_gmldgVWsiEk4VEUSi_ZWKXwwO-K8tQGOycd8P6sRnOg/viewform?usp=sf_link",
+    poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/gameJam.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/2.png",
   },
@@ -315,7 +315,7 @@ export const itEvents = [
 
     //No prize for the talk!
     prize: [],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSdNJ_XJrFMgbs_edkRgMO5kBN45IWRU6q-yVzACQu1c4XdI5A/viewform?usp=sf_link",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/rpa.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/rpa.png",
@@ -375,7 +375,7 @@ export const itEvents = [
 
     //No prize for the talk!
     prize: [],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSc8yKDNzy5rJaWto6tdLmsK6VWu6rpRCABOHKO-Sm2-EF-T1Q/viewform?usp=sf_link",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/3DPA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/3dprint.png",
@@ -431,7 +431,7 @@ export const itEvents = [
 
     //No prize for the talk!
     prize: [],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSe2R9vqwluANLFeNDuR-v21EQW0fPNLL2fkipi-HVt2grXgTQ/viewform?usp=sf_link",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/UUDA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/UUD169.png",
@@ -490,7 +490,7 @@ export const itEvents = [
     },
 
     prize: [],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSf8n1N1q9vhAZZmzwnXXUV5Q0UuL05beUNnlZDvVG6IdVw4fw/viewform?usp=sf_link",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/posters/GDWA4.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/IT/thumbnail/gamedev.png",
