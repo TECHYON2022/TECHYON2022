@@ -267,7 +267,7 @@ export const computerEvents = [
       prize: [],
       //!this is to be changed
       form: "https://bit.ly/3d_modeling_comp",
-      poster: "/assets/images/posters/comp/decrypt.jpg",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/3dModel.jpeg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/3DModelingUsingBlender.png",
       
