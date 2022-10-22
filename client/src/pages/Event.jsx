@@ -43,7 +43,14 @@ function Event() {
                 REGISTER
               </a>
 
-              {/* prize */}
+              <h3 className="my-3 rule title">Prizes: </h3>
+              <Box>
+                <ol className="rule-list">
+                      {event.prize.map((prizeItem, keyIndex) => (
+                        <li key={keyIndex}>Rs. {prizeItem}</li>
+                      ))}
+                  </ol>
+              </Box>
 
               <h3 className="my-3">Instruction: </h3>
               {Object.keys(event.rules).map((key, index) => {
@@ -63,7 +70,7 @@ function Event() {
               {event.event_coordinators.map((coordinator, index) => (
                 <p>
                   
-                  <a href={`https://wa.me/${coordinator.phone}`} rel="noreferrer" target="_blank">
+                  <a href={`https://wa.me/91${coordinator.phone}`} rel="noreferrer" target="_blank">
                     <img
                       src="/assets/images/socials/whatsapp.png"
                       alt="whatsapp"

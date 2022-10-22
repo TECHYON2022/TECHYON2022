@@ -64,7 +64,7 @@ export const sponserList = [
   {
     name: "Kapslock",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/kapslock.svg",
-    link: "#"
+    link: "http://kapslock.in/"
   },
   {
     name: "PIFS",
