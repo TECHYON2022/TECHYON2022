@@ -11,13 +11,13 @@ export const computerEvents = [
       time: "9 AM",
       event_coordinators: [
         {
-          name: "Husna Toragall",
-          phone: "8975509292",
+          name: "Aayush Anand",
+          phone: "7666023650",
         },
         {
-          name: "Ridhi",
+          name: "Ridhi Jha",
           phone: "9307959413",
-        },
+        }
       ],
       rules: {
         "Round 1 rules": [
@@ -99,6 +99,17 @@ export const computerEvents = [
         },
       ],
       rules: {
+        Rules: ["The title and names of the group members should be mentioned.",
+                  "Two presenters per team max are allowed",
+                  "It is only for BE Comp students",
+                  "Presentation time of 5 mins per team to present idea followed by questions from judges. "
+                ],
+        Instructions: [
+          "Contents should be clearly listed using appropriate fonts and colours.",
+          "The use of proper headings/subtitles is desired.",
+          "Content should give a complete idea of what the project is about.",
+          "Decisions made by the Coordinator/Company will be final in case any problems."
+        ],
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
@@ -126,16 +137,31 @@ export const computerEvents = [
       event_coordinators: [
         {
           name: "K L Rithika",
-          //!change this to your own number
-          phone: "9766055610",
+          phone: "8390629943",
         },
         {
-          name: "Leander ",
-          //!change number
-          phone: "8390629943",
+          name: "Leander Pereira",
+          phone: "8975715913",
         },
       ],
       rules: {
+        Rules: [
+          "The contest shall consist of a set of MCQs on various topics.",
+          "The contest will deal your knowledge of Computers, the internet, cultural, politics, sports and various other categories.",],
+          
+          "Round 1 rules":[
+          "1 Student/participant.",
+          "-30 MCQ/Questions to be answered in 45min.", 
+          "- Highest 15 scores qualify for round 2, if tie first to finish qualifies.", 
+          "- Internet access is not allowed.",],
+
+          "Round 2 Rules":[
+          "-1 Student/participant.",
+          "-20 Questions to be answered in 30min.",
+          "- Highest scorer wins.",
+          "- In case of a Tie there will be a Tie breaker Question.",
+          "- Internet access is not allowed"
+        ],
         
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
@@ -201,13 +227,11 @@ export const computerEvents = [
       event_coordinators: [
         {
           name: "Sashreek Dhaimodkar",
-          //!change this to your own number
-          phone: "9766055610",
+          phone: "7066446169",
         },
         {
-          name: "Walushka",
-          //!change number
-          phone: "8390629943",
+          name: "Walushka Faleiro",
+          phone: "7058134018",
         },
       ],
       rules: {
@@ -241,7 +265,7 @@ export const computerEvents = [
       type: "Intra",
       team: false,
       location: "Offline",
-      date: "27th OCT",
+      date: "29th OCT",
       time: "9 AM",
       event_coordinators: [
         {
@@ -285,12 +309,10 @@ export const computerEvents = [
       event_coordinators: [
         {
           name: "Shaheen Nayakodi",
-          //!change this to your own number
-          phone: "9766055610",
+          phone: "7743924906",
         },
         {
           name: "Vivek Paste",
-          //!change number
           phone: "8766768522",
         },
       ],
