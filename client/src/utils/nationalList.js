@@ -12,11 +12,11 @@ export const nationalEvents = [
       event_coordinators: [
         {
           name: "Kanchan Patil",
-          phone: "918208069554",
+          phone: "8208069554",
         },
         {
           name: "Vailanka Dias",
-          phone: "919371834101",
+          phone: "9371834101",
         },
       ],
       rules: {

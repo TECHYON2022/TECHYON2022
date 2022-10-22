@@ -91,11 +91,11 @@ export const computerEvents = [
       event_coordinators: [
         {
           name: "Priyanka Talwar",
-          phone: "9766055610",
+          phone: "7038510912",
         },
         {
           name: "Vipula Sail",
-          phone: "8390629943",
+          phone: "9049646478",
         },
       ],
       rules: {
@@ -113,7 +113,7 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
@@ -131,7 +131,7 @@ export const computerEvents = [
       categories: ["COMP"],
       type: "Intra",
       team: false,
-      location: "Online",
+      location: "Offline",
       date: "28th OCT",
       time: "9:45 am",
       event_coordinators: [
@@ -166,7 +166,7 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
@@ -245,7 +245,7 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
@@ -284,7 +284,7 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
