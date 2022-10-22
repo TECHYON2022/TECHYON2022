@@ -43,7 +43,7 @@ export const sponserList = [
   
   {
     name: "Scada",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/scada.svg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/scada.png",
     link: "#"
   },
   {

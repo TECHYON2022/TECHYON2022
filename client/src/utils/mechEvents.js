@@ -75,7 +75,7 @@ export const mechEvents = [
     type: "Inter",
     team: true,
     location: "Pcce",
-    date: "27 AND 29 OCT",
+    date: "28 AND 29 OCT",
     time: "11 AM",
     event_coordinators: [
       {
