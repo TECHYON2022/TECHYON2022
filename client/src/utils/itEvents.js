@@ -55,7 +55,7 @@ export const itEvents = [
     eventName: "CodeStorm",
     department: "Information Technology Department",
     categories: ["IT"],
-    type: "Intra",
+    type: "Inter",
     team: false,
     location: "Offline",
     date: "28th OCT",
