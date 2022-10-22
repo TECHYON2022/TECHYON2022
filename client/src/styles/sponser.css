@@ -4,9 +4,14 @@
     background-color: rgba(73, 70, 70, 0.726);
     border-radius: 12px;
     display: flex;
+    padding: .1rem;
     justify-content: center;
     align-items: center;
+    flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
 .sponser-img {
-    max-width: 11rem;
+    max-width: 5rem;
+    margin: .1rem .3rem
 }
