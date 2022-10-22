@@ -286,7 +286,7 @@ export const etcEvents = [
     categories: ["ETC"],
     type: "Inter",
     team: false,
-    location: "Offline (EComp Floor Lab 7)",
+    location: "Offline (Auditorium)",
     date: "28th OCT",
     time: "2 PM",
     event_coordinators: [
