@@ -36,14 +36,22 @@ function Event() {
               <p><span className="heading">Date</span>: {event.date}</p>
               <p><span className="heading">Time</span>: {event.time}</p>
               <p><span className="heading">Location</span>: {event.location}</p>
+              <Box>
               <a
                 href={event.form} rel="noreferrer" target="_blank"
-                className="btn form-btn px-5"
+                className="btn form-btn px-3 mr-3"
               >
                 REGISTER
               </a>
+              <a
+                href={event.rulebook} rel="noreferrer" target="_blank"
+                className="btn form-btn px-3"
+              >
+                Rulebook
+              </a>
+              </Box>
 
-              <h3 className="my-3 rule-title">Prizes: </h3>
+              {event.prize.length > 0 && (<h3 className="my-3 rule-title">Prizes: </h3>)}
               <Box>
                 <ol className="rule-list">
                       {event.prize.map((prizeItem, keyIndex) => (
