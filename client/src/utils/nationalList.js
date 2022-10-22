@@ -60,7 +60,7 @@ export const nationalEvents = [
      prize: [15000, 10000, 5000],
       form: "https://unstop.com/hackathon/hacktech-powered-by-visteon-techyon-2022-padre-conceicao-college-of-engineering-salcete-goa-462143",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/HackTech.png",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "https://github.com/TECHYON2022/techyonAssets/raw/main/COMP/rulebook/hacktech.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/HackTech.png",
     },
 ]
