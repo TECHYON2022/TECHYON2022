@@ -20,12 +20,17 @@ export const mechEvents = [
       },
     ],
     rules: {
+      FAQs: [
+        "1. Who can participate?  Ans - Any student from any of Padre Conceicao college of Engineering college, irrespective of their department can participate. ",
+        "2. Is there a registration fee?  Ans - No registration fee",
+        "Decision taken by Co-Ordinators will be final in case any discrepancies!",
+      ],
     },
     prize: [2000, 1000],
     form: "https://docs.google.com/forms/d/e/1FAIpQLScQGCfJAH-fcQMd9Gck20UBAPQmDHjggvgI4tm8YbXpv1OsIA/viewform?usp=pp_url",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/posters/bridge.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/thumbnail.jpg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/bridge.png",
   },
     {
     id: 32,
@@ -65,7 +70,7 @@ export const mechEvents = [
     form: "https://docs.google.com/forms/d/e/1FAIpQLScU5XSaakHZpmIVWPgL6W1eG60FiwEK1LxjKbcBCA1AIieOMg/viewform?usp=pp_url",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/posters/mechanism.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/thumbnail.jpg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/mechnism.png",
   },
     {
     id: 33,
@@ -75,7 +80,7 @@ export const mechEvents = [
     type: "Inter",
     team: true,
     location: "Pcce",
-    date: "27 AND 29 OCT",
+    date: "28 AND 29 OCT",
     time: "11 AM",
     event_coordinators: [
       {
@@ -84,13 +89,17 @@ export const mechEvents = [
       },
     ],
     rules: {
-      
+      FAQs: [
+        "1. Who can participate?  Ans - Any student from any of Engineering college irrespective of their department can participate. ",
+        "2. Is there a registration fee?  Ans - No registration fee",
+        "Decision taken by Co-Ordinators will be final in case any discrepancies!",
+      ],
     },
     prize: [14000, 6000],
     form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/posters/roborace.jpg",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/thumbnail.jpg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/robo.png",
   },
     {
     id: 34,
@@ -134,7 +143,7 @@ export const mechEvents = [
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdm3qv5UFtwx46s-6OUvUhplQ-wAw7Ruyc8QPhRKvNqcogOXA/viewform?usp=pp_url",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/posters/Solid.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/thumbnail.jpg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/solid.png",
   },
     {
     id: 35,
@@ -157,12 +166,16 @@ export const mechEvents = [
       },
     ],
     rules: {
-     
+      FAQs: [
+        "1. Who can participate?  Ans - Any student from any of Padre Conceicao college of Engineering college, irrespective of their department can participate. ",
+        "2. Is there a registration fee?  Ans - No registration fee",
+        "Decision taken by Co-Ordinators will be final in case any discrepancies!",
+      ],
     },
     prize: [],
     form: "https://docs.google.com/forms/d/e/1FAIpQLScUADI9_C0jphFfbSqfxIwMxKGiXLxIJv6LEqCL_RL4EFuqSw/viewform?usp=pp_url",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/posters/3dWorkshop.png",
     rulebook: "../rulebook/COMP/decrypt.pdf",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/thumbnail.jpg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/3dprint.png",
   },
 ];

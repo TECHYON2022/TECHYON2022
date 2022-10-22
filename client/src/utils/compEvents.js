@@ -113,7 +113,6 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
@@ -166,7 +165,6 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
@@ -245,7 +243,6 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
@@ -284,7 +281,6 @@ export const computerEvents = [
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop and preferably Google Chrome browser installed.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
