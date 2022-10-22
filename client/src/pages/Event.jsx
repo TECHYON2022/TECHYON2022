@@ -43,7 +43,7 @@ function Event() {
                 REGISTER
               </a>
 
-              <h3 className="my-3 rule title">Prizes: </h3>
+              <h3 className="my-3 rule-title">Prizes: </h3>
               <Box>
                 <ol className="rule-list">
                       {event.prize.map((prizeItem, keyIndex) => (
@@ -52,7 +52,7 @@ function Event() {
                   </ol>
               </Box>
 
-              <h3 className="my-3">Instruction: </h3>
+              <h3 className="my-3 rule-title">Instruction: </h3>
               {Object.keys(event.rules).map((key, index) => {
                 return (
                   <Box key={index}>
