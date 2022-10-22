@@ -249,7 +249,7 @@ export const computerEvents = [
       prize: [],
       //!this is to be changed
       form: "https://bit.ly/data_analytics_ml_comp",
-      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/ML.svg",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/Ml.svg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Machine%20Learning%20Workshop.png",
       
