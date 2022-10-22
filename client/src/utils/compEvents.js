@@ -227,7 +227,7 @@ export const computerEvents = [
       event_coordinators: [
         {
           name: "Sashreek Dhaimodkar",
-          phone: "7066446169",
+          phone: "7588664140",
         },
         {
           name: "Walushka Faleiro",
