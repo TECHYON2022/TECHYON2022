@@ -11,6 +11,11 @@ export const sponserList = [
     link: "https://www.visteon.com/"
   },
   {
+    name: "OneShield",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/oneShield.svg",
+    link: "https://oneshield.com/"
+  },
+  {
     name: "Bluelearn",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/bluelearn.svg",
     link: "https://www.bluelearn.in/"
@@ -31,27 +36,11 @@ export const sponserList = [
     link: "https://maxxcell.in/"
   },
   {
-    name: "OneShield",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/oneShield.svg",
-    link: "https://oneshield.com/"
-  },
-  {
     name: "SJ Innovation",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/SJ.png",
     link: "https://sjinnovation.com/"
   },
-  {
-    name: "Edot",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/edot.png",
-    link: "https://www.edot-solutions.com/"
-  },
   
-  
-  {
-    name: "Imagine Works",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/imagine works.png",
-    link: ""
-  },
   {
     name: "Scada",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/scada.svg",
@@ -89,19 +78,25 @@ export const sponserList = [
   },
   
   {
+    name: "SZ",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/sz.svg",
+    link: ""
+  },
+  
+  {
     name: "The Handy Goan",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/handyGoan.png",
     link: ""
   },
   {
-    name: "SZ",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/sz.svg",
-    link: ""
+    name: "Edot",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/edot.png",
+    link: "https://www.edot-solutions.com/"
   },
   {
-    name: "ACE",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/ACE.png",
-    link: "#"
+    name: "Imagine Works",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/imagine works.png",
+    link: ""
   },
   {
     name: "ETC",
@@ -121,6 +116,11 @@ export const sponserList = [
   {
     name: "Cosme",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/cosme.png",
+    link: "#"
+  },
+  {
+    name: "ACE",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/ACE.png",
     link: "#"
   },
   {
