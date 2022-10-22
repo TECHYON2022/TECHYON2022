@@ -10,8 +10,13 @@
     flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
+  transition: transform .2s;
 }
 .sponser-img {
     max-width: 5rem;
-    margin: .1rem .3rem
+    margin: .1rem .3rem;
+}
+
+.sponser-item:hover {
+    transform: scale(1.5);
 }
