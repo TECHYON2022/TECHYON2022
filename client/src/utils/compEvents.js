@@ -37,7 +37,7 @@ export const computerEvents = [
       //!this is to be changed
       form: "https://unstop.com/hackathon/datahack-powered-by-oneshield-techyon-2022-padre-conceicao-college-of-engineering-salcete-goa-462203",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/3.svg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "https://github.com/TECHYON2022/techyonAssets/raw/main/COMP/rulebook/datahack.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/DataHack.png",
     },
     {
@@ -75,7 +75,7 @@ export const computerEvents = [
       prize: [6000, 4000, 2000],
       form: "https://unstop.com/p/codecrunch-powered-by-creative-capsule-techyon-2022-padre-conceicao-college-of-engineering-salcete-goa-462202",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/CodeCrunch.svg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "https://github.com/TECHYON2022/techyonAssets/raw/main/COMP/rulebook/codecrunch.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Code%20Crunch.png",
     },
     {
@@ -120,7 +120,7 @@ export const computerEvents = [
       //!this is to be changed
       form: "https://bit.ly/ideate_comp",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/2.svg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "https://github.com/TECHYON2022/techyonAssets/raw/main/COMP/rulebook/ideate.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Ideate.png",
     },
     {
@@ -172,7 +172,7 @@ export const computerEvents = [
       // this is to be changed
       form: "https://bit.ly/decrypt_comp",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/Decrypt.svg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "https://github.com/TECHYON2022/techyonAssets/raw/main/COMP/rulebook/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Decrypt.png",
     },
     {
@@ -209,7 +209,7 @@ export const computerEvents = [
       // this is to be changed
       form: "https://bit.ly/efootball_comp",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/eFootbalPoster.jpg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "#",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/eFootball™ 2023.png",
     },
     {
@@ -250,7 +250,7 @@ export const computerEvents = [
       //!this is to be changed
       form: "https://bit.ly/data_analytics_ml_comp",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/Ml.svg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "#",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/Machine%20Learning%20Workshop.png",
       
     },
@@ -288,7 +288,7 @@ export const computerEvents = [
       //!this is to be changed
       form: "https://bit.ly/3d_modeling_comp",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/3dModel.jpeg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "#",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/3DModelingUsingBlender.png",
       
     },
@@ -301,7 +301,7 @@ export const computerEvents = [
       team: false,
       location: "Offline",
       date: "29th OCT",
-      time: "2 PM",
+      time: "9 AM",
       event_coordinators: [
         {
           name: "Shaheen Nayakodi",
@@ -332,7 +332,7 @@ export const computerEvents = [
       //!this is to be changed
       form: "https://bit.ly/frontend101_comp",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/1.svg",
-      rulebook: "../rulebook/COMP/decrypt.pdf",
+      rulebook: "#",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/FrontEnd%20101%20Workshop.png",
       
     }
