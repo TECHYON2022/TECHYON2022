@@ -42,6 +42,9 @@ function Event() {
               >
                 REGISTER
               </a>
+
+              {/* prize */}
+
               <h3 className="my-3">Instruction: </h3>
               {Object.keys(event.rules).map((key, index) => {
                 return (

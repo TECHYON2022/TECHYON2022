@@ -44,49 +44,49 @@ export const sponserList = [
   {
     name: "Scada",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/scada.svg",
-    link: ""
+    link: "#"
   },
   {
     name: "Blive",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/blive.jpg",
-    link: ""
+    link: "https://www.blive.co.in/"
   },
   {
     name: "haztech",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/haztech.jpg",
-    link: ""
+    link: "https://haztech.in/"
   },
   {
     name: "Altered Reality",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/altered.png",
-    link: ""
+    link: "#"
   },
   {
     name: "Kapslock",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/kapslock.svg",
-    link: ""
+    link: "#"
   },
   {
     name: "PIFS",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/pifs.png",
-    link: ""
+    link: "#"
   },
   {
     name: "INNOVENT",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/innovent.png",
-    link: ""
+    link: "#"
   },
   
   {
     name: "SZ",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/sz.svg",
-    link: ""
+    link: "#"
   },
   
   {
     name: "The Handy Goan",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/handyGoan.png",
-    link: ""
+    link: "http://thehandygoan.com/"
   },
   {
     name: "Edot",
@@ -96,7 +96,7 @@ export const sponserList = [
   {
     name: "Imagine Works",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/imagine works.png",
-    link: ""
+    link: "#"
   },
   {
     name: "ETC",
