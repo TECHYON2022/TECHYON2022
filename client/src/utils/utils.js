@@ -79,7 +79,7 @@ export const sponserList = [
   
   {
     name: "SZ",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/sz.svg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/sz.jpg",
     link: "#"
   },
   
@@ -122,30 +122,7 @@ export const sponserList = [
     name: "ACE",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/ACE.png",
     link: "#"
-  },
-  {
-    name: "Cognibyte",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/cognibyre.png",
-    link: "#"
-  },
-  {
-    name: "Enigma",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/Enigma.png",
-    link: "#"
-  },
-
-  {
-    name: "MINDSPARK22",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/mindspark.png",
-    link: "#"
-  },
-
-
-  {
-    name: "MECHFEST",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/mechfest.png",
-    link: "#"
-  },
+  }
 
 
 ];
