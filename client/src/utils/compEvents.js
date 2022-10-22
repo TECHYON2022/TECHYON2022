@@ -31,7 +31,6 @@ export const computerEvents = [
           "Round 2 will be an online discussion round conducted on 29th October 2022.",
           "Selected teams have to join an online session with judges.",
           "The implementation of the solution will be discussed in detail and will be cross questioned by judges.",
-          "Platform- Google Forms",
         ],
       },
       prize: [12000, 9000, 4000],
@@ -66,23 +65,10 @@ export const computerEvents = [
           "TEAM LEADERS WILL REGISTER ON UNSTOP AND FILL IN THE DETAILS OF ALL TEAM MEMBERS",
           "REGISTRATIONS CLOSE BEFORE THE RELEASE OF DAY 1 TASKS.",
         ],
-        "Round 1 rules": [
-          "1 Student/participant.",
-          "25 MCQ/Questions to be answered in 60min.",
-          "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-          "Internet access is allowed.",
-        ],
-        "Round 2 rules": [
-          "1 Student/participant.",
-          "15 Questions to be answered in 45min.",
-          "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-          "Internet access is allowed.",
-          "Platform- Google Forms",
-        ],
         FAQs: [
-          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "1. Who can participate? Ans - Any student enrolled in a Graduate or Undergraudate College can participate.",
           "2. Is there a registration fee? Ans - No registration fee",
-          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+          "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed amd development environment setup.",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
       },
@@ -198,7 +184,7 @@ export const computerEvents = [
       prize: [2500, 1500],
       // this is to be changed
       form: "https://bit.ly/efootball_comp",
-      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/eFootbalPoster.svg",
+      poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/eFootbalPoster.jpg",
       rulebook: "../rulebook/COMP/decrypt.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/eFootball™ 2023.png",
     },
@@ -259,14 +245,14 @@ export const computerEvents = [
       time: "9 AM",
       event_coordinators: [
         {
-          name: "Sashreek Dhaimodkar",
+          name: "Prathamesh Naik",
           //!change this to your own number
-          phone: "9766055610",
+          phone: "9588457349",
         },
         {
-          name: "Walushka",
+          name: "Livio Mascarenhas",
           //!change number
-          phone: "8390629943",
+          phone: "8669334918",
         },
       ],
       rules: {
@@ -298,14 +284,14 @@ export const computerEvents = [
       time: "2 PM",
       event_coordinators: [
         {
-          name: "Sashreek Dhaimodkar",
+          name: "Shaheen Nayakodi",
           //!change this to your own number
           phone: "9766055610",
         },
         {
-          name: "Walushka",
+          name: "Vivek Paste",
           //!change number
-          phone: "8390629943",
+          phone: "8766768522",
         },
       ],
       rules: {

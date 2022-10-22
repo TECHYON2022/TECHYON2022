@@ -89,7 +89,7 @@ export const etcEvents = [
         "Max voltage 12V",
       ],
       FAQs: [
-        "1. Is there a registration fee? <br/> Yes. Entry fee per team is ₹150. Payment details are given in the Registeration form.",
+        "1. Is there a registration fee?  Yes. Entry fee per team is ₹150. Payment details are given in the Registeration form.",
         "Decision taken by Co-Ordinators will be final in case any discrepancies!",
       ],
     },
@@ -129,7 +129,7 @@ export const etcEvents = [
         "Serious conflicts will lead to disqualification.",
     ],
   FAQs: [
-        "1. Is there a registration fee? <br/> Ans - No registration fee",
+        "1. Is there a registration fee?  Ans - No registration fee",
         "Decision taken by Co-Ordinators will be final in case any discrepancies!",
       ],
     },
@@ -170,8 +170,8 @@ export const etcEvents = [
         "Participants should be present at the designated class/lab prior the event timing, failing to will lead to disqualification.",
       ],
       FAQs: [
-        "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
-        "2. Is there a registration fee? <br/> Ans - No registration fee",
+        "1. Who can participate?  Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+        "2. Is there a registration fee?  Ans - No registration fee",
         "Decision taken by Co-Ordinators will be final in case any discrepancies!",
       ],
     },
@@ -214,7 +214,7 @@ export const etcEvents = [
         "Participants must adhere by the rules and co-operate with the coordinators.",
       ],
       FAQs: [
-        "1. Is there a registration fee? <br/> Ans - No registration fee",
+        "1. Is there a registration fee?  Ans - No registration fee",
         "Decision taken by Co-Ordinators will be final in case any discrepancies!",
       ],
     },
@@ -270,8 +270,8 @@ export const etcEvents = [
     "Other placements spots - 0 points.",
   ],
       FAQs: [
-        "1. Is there a registration fee? <br/> Ans - Yes. Entry fee per team is ₹200. Payment details are given in the Registeration form.",
-        "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+        "1. Is there a registration fee?  Ans - Yes. Entry fee per team is ₹200. Payment details are given in the Registeration form.",
+        "3. What should you have?  Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
         "Decision taken by Co-Ordinators will be final in case any discrepancies!",
       ],
     },
