@@ -78,10 +78,10 @@ export const itEvents = [
         "2. The quiz will be held in pen & paper mode.",
         "3. Quiz will be based on General Knowledge and Computer Science.",
         "4. Top 20 participants will be shortlisted for the final round.",
-        "5. Duration for the Quiz is 1 hour",
+        "5. Duration for the Quiz is 40 minutes",
       ],
       "Round 2 rules": [
-          "1. Participants are required to answer five different coding problem statements through the online open-source platform HackerRank in the stipulated time.",
+          "1. Participants are required to answer four different coding problem statements.",
           "2. Participants will be given a duration of 20 minutes for each problem.",
           "3.	Permitted languages include C, C++, Java and Python.",
           "4.	Submissions/absence beyond the deadline will be considered invalid.",
@@ -89,7 +89,7 @@ export const itEvents = [
       FAQs: [
           "1. Who can participate? Ans - Teams consisting of participants enrolled in Engineering College/university programs in Goa.",
           "2. Is there a registration fee? Ans - No registration fee",
-          "4. Decision taken by Oragnizers or judges's will be final in case any discrepancies!",
+          "3. Decision taken by Oragnizers or judges's will be final in case any discrepancies!",
       ],
     },
     prize: [4000, 2500, 1500],
@@ -467,26 +467,6 @@ export const itEvents = [
           "All attendees will receive e-certificates.",
           "Please read the rulebook/document or contact event coordinators for further details."
       ],
-      /* No Rules or FAQs
-      "Round 1 rules": [
-        "1 Student/participant.",
-        "25 MCQ/Questions to be answered in 60min.",
-        "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-        "Internet access is allowed.",
-      ],
-      "Round 2 rules": [
-        "1 Student/participant.",
-        "15 Questions to be answered in 45min.",
-        "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
-        "Internet access is allowed.",
-        "Platform- Google Forms",
-      ],
-      FAQs: [
-        "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective osf their department can participate. ",
-        "2. Is there a registration fee? Ans - No registration fee",
-        "3. What should you have? Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
-        "Decision taken by Co-Ordinators will be final in case any discrepancies!",
-      ],*/
     },
 
     prize: [],
