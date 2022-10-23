@@ -48,3 +48,17 @@
     border-radius: 7px;
     color: #FFFFFF;
 }
+
+.form-btn:hover{
+    color: #fff;
+    background: linear-gradient(270deg, var(--primary-color) 8.85%, rgba(237, 14, 41, 0.0364583) 99.99%, rgba(237, 14, 41, 0) 100%);
+}
+
+.rule-btn{
+    background: linear-gradient(0deg, var(--primary-color) 8.85%, rgba(237, 14, 41, 0.0364583) 99.99%, rgba(237, 14, 41, 0) 100%);
+}
+
+.rule-btn:hover{
+    color: white;
+    background: linear-gradient(90deg, var(--primary-color) 8.85%, rgba(237, 14, 41, 0.0364583) 99.99%, rgba(237, 14, 41, 0) 100%);
+}

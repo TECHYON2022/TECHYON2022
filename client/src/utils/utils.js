@@ -12,7 +12,7 @@ export const sponserList = [
   },
   {
     name: "OneShield",
-    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/oneShield.svg",
+    image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/Sponsers/oneShield.jpeg",
     link: "https://oneshield.com/"
   },
   {
