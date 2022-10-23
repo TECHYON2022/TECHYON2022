@@ -198,6 +198,13 @@ export const computerEvents = [
         },
       ],
       rules: {
+        Details: [
+          "Game: eFootball™ 2023",
+          "Platform: Mobile",
+          "Game time: 12mins",
+          "No of subs: 5",
+          "Penalties incase of a draw after full time"
+        ],
         FAQs: [
           "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
           "2. Is there a registration fee? Ans - Yes, registration fee of Rs.150",

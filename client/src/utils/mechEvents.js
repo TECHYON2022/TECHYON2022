@@ -135,7 +135,7 @@ export const mechEvents = [
       ],
     },
     prize: [14000, 6000],
-    form: "https://forms.gle/NpJYvGRYX2mfiPPv5",
+    form: "https://docs.google.com/forms/d/1Cp1Mf_Al6TBSwISIqUTmZkkgzR6kGkvHwhrPOr1uwrg/viewform?edit_requested=true",
     poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/posters/roborace.jpg",
     rulebook: "https://github.com/TECHYON2022/techyonAssets/raw/main/MECH/rulebook/roboRace.pdf",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/MECH/thumbnail/robo.png",

@@ -269,7 +269,7 @@ export const etcEvents = [
     "Other placements spots - 0 points.",
   ],
   FAQs: [
-    "1. Is there a registration fee? <br/> Ans - Yes. Entry fee per team is ₹200. Payment details are given in the Registeration form.",
+    "1. Is there a registration fee? Ans - Yes. Entry fee per team is ₹200. Payment details are given in the Registeration form.",
     "Decision taken by Co-Ordinators will be final in case any discrepancies!",
   ],
     },
