@@ -6,9 +6,9 @@ import "../styles/coordinator.css";
 function CoordinatorList() {
   return (
     <div className="coordinator-section">
-      <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5">
+      <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5 container-fluid">
         <hr className="w-15" />
-        <div className="fs-24 w-25 text-center">COORDINATORS</div>
+        <div className="fs-22 w-25 text-center bolder"><Box sx={{fontSize: {xs: ".9rem", md: "1.4rem"}}}>COORDINATORS</Box></div>
         <hr className="w-15" />
       </div>
       <Box

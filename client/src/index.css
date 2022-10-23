@@ -39,9 +39,11 @@ body {
 }
 .fs-14 {
   font-size: 14px;
+  font-weight: bolder;
 }
 .fs-16 {
   font-size: 16px;
+  font-weight: bolder;
 }
 .fs-18 {
   font-size: 18px;
@@ -63,6 +65,10 @@ body {
 }
 .fs-38 {
   font-size: 38px;
+}
+
+.bolder{
+  font-weight: bolder;
 }
 
 .background-pattern{

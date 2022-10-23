@@ -10,7 +10,7 @@ function About() {
       <div className="ellipse w-100">
         <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-4">
           <hr className="w-15" />
-          <div className="fs-24 w-25 text-center">TEAM</div>
+          <div className="fs-20 w-25 text-center bolder">TEAM</div>
           <hr className="w-15" />
         </div>
       </div>

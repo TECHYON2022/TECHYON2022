@@ -20,7 +20,7 @@ function Event() {
         <div className="event-page-container container">
           <div className="d-flex row justify-content-center align-items-center m-0 p-0 my-5">
             <hr className="w-15" />
-            <div className="fs-24 w-25 text-center w-wrap">{event.eventName}</div>
+            <div className="fs-14 w-25 text-center w-wrap">{event.eventName}</div>
             <hr className="w-15" />
           </div>
           <Box
@@ -45,7 +45,7 @@ function Event() {
               </a>
               <a
                 href={event.rulebook} rel="noreferrer" target="_blank"
-                className="btn form-btn px-3"
+                className="btn form-btn rule-btn px-3"
               >
                 Rulebook
               </a>
