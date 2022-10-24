@@ -131,25 +131,25 @@ export const developerList = [
   {
     name: "Aniket Sardesai",
     department: "Computer",
-    role: "Frontend Developer",
+    role: "Developer",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Aniket.jpg",
   },
   {
     name: "Chaitanya Chanekar",
     department: "Computer",
-    role: "Frontend Developer",
+    role: "Developer",
     image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Chaitanya.png",
   },
   {
   name: "Prathamesh Naik",
   department: "Computer",
-  role: "Backend Developer",
+  role: "Developer",
   image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Prathamesh1.jpg",
 },
 {
   name: "Melitta Pacheco",
   department: "Computer",
-  role: "Backend Developer",
+  role: "Developer",
   image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/ProfileImages/WEB/Melitta.JPG",
 },];
 
