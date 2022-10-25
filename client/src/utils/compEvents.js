@@ -337,7 +337,8 @@ export const computerEvents = [
       },
       prize: [],
       //!this is to be changed
-      form: "https://bit.ly/frontend101_comp",
+      // form: "https://bit.ly/frontend101_comp",
+      form: "https://techyon-2022.herokuapp.com/registration/18",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/1.svg",
       rulebook: "#",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/FrontEnd%20101%20Workshop.png",
