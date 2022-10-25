@@ -116,55 +116,55 @@ export const postSingleParticipant = async (req, res) => {
   console.log(eventName);
   try {
     switch (eventName) {
-      case "Decrypt": {
-        const data = await Decrypt.create(req.body);
-        await data.sendmail();
-        res.status(200).send(data);
-        break;
-      }
-      case "FIFA_Tournament": {
-        const data = await FIFA_Tournament.create(req.body);
-        await data.sendmail();
-        console.log(data._id.toString());
-        res.status(200).send(data);
-        break;
-      }
-      case "Canva_It": {
-        const data = await Canva_It.create(req.body);
-        await data.sendmail();
-        res.status(200).send(data);
-        break;
-      }
-      case "CodeStorm": {
-        const data = await CodeStorm.create(req.body);
-        await data.sendmail();
-        res.status(200).send(data);
-        break;
-      }
-      case "MasterMinds_Quiz": {
-        const data = await MasterMinds_Quiz.create(req.body);
-        await data.sendmail();
-        res.status(200).send(data);
-        break;
-      }
-      case "Solid_Works": {
-        const data = await Solid_Works.create(req.body);
-        await data.sendmail();
-        res.status(200).send(data);
-        break;
-      }
-      case "VFX": {
-        const data = await VFX.create(req.body);
-        await data.sendmail();
-        res.status(200).send(data);
-        break;
-      }
-      case "PCB_Design": {
-        const data = await PCB_Design.create(req.body);
-        await data.sendmail();
-        res.status(200).send(data);
-        break;
-      }
+      // case "Decrypt": {
+      //   const data = await Decrypt.create(req.body);
+      //   await data.sendmail();
+      //   res.status(200).send(data);
+      //   break;
+      // }
+      // case "FIFA_Tournament": {
+      //   const data = await FIFA_Tournament.create(req.body);
+      //   await data.sendmail();
+      //   console.log(data._id.toString());
+      //   res.status(200).send(data);
+      //   break;
+      // }
+      // case "Canva_It": {
+      //   const data = await Canva_It.create(req.body);
+      //   await data.sendmail();
+      //   res.status(200).send(data);
+      //   break;
+      // }
+      // case "CodeStorm": {
+      //   const data = await CodeStorm.create(req.body);
+      //   await data.sendmail();
+      //   res.status(200).send(data);
+      //   break;
+      // }
+      // case "MasterMinds_Quiz": {
+      //   const data = await MasterMinds_Quiz.create(req.body);
+      //   await data.sendmail();
+      //   res.status(200).send(data);
+      //   break;
+      // }
+      // case "Solid_Works": {
+      //   const data = await Solid_Works.create(req.body);
+      //   await data.sendmail();
+      //   res.status(200).send(data);
+      //   break;
+      // }
+      // case "VFX": {
+      //   const data = await VFX.create(req.body);
+      //   await data.sendmail();
+      //   res.status(200).send(data);
+      //   break;
+      // }
+      // case "PCB_Design": {
+      //   const data = await PCB_Design.create(req.body);
+      //   await data.sendmail();
+      //   res.status(200).send(data);
+      //   break;
+      // }
       case "FrontEnd_101": {
         const data = await FrontEnd_101.create(req.body);
         await data.sendmail();

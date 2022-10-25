@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import "../styles/form.css";
 
 const Form = ({ isMobile, eventDetails }) => {
-  const [isTeam, setIsTeam] = useState(eventDetails.team);
+  const [isTeam, setIsTeam] = useState(false);
   const [participant, setParticipant] = useState({
     name: "",
     email: "",
@@ -36,8 +35,6 @@ const Form = ({ isMobile, eventDetails }) => {
     mem3_college: "",
   });
 
-  const navigate = useNavigate();
-
   const memberType = [
     { id: 2, value: "2" },
     { id: 3, value: "3" },
@@ -57,7 +54,7 @@ const Form = ({ isMobile, eventDetails }) => {
 
     if (isTeam) {
       console.log({
-        eventName: eventDetails.eventName,
+        eventName: "Front",
         teamName: teamName,
         ...member1,
         ...member2,
@@ -65,14 +62,14 @@ const Form = ({ isMobile, eventDetails }) => {
       });
       axios
         .post("/team", {
-          eventName: eventDetails.eventName,
+          eventName: "Front",
           teamName: teamName,
           ...member1,
           ...member2,
           ...member3,
         })
         .then((res) => {
-          toast.success("Registration complete for " + eventDetails.eventName, {
+          toast.success("Registration complete for Front End 101", {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -114,36 +111,44 @@ const Form = ({ isMobile, eventDetails }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log({ ...participant });
-    if (!isTeam) {
-      axios
-        .post("/singleParticipant", {
-          ...participant,
-          eventName: eventDetails.eventName,
-        })
-        .then((res) => {
-          toast.success("Registration complete for " + eventDetails.eventName, {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "dark",
+    const id = toast.loading("Registering...");
+    if(participant.phone_no == null || participant.phone_no.length < 10 || participant.rollno == "" || participant.name == ""){
+      toast.error("Please enter all the fields", {
+        theme: "dark",
+      });
+    }else{
+      if (!isTeam) {
+        axios
+          .post("/singleParticipant", {
+            ...participant,
+            eventName: "FrontEnd_101",
+          })
+          .then((res) => {
+            toast.update(id,{render: "Successfully registered for Front End 101", type: "success", isLoading: false}, {
+              position: "top-center",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "dark",
+            });
+            setParticipant({
+              name: "",
+              email: "",
+              rollno: "",
+              phone_no: null,
+              college: "",
+            });
+          })
+          .catch((err) => {
+            toast.update(id, {render: "Something went wrong...", type: "error", isLoading: false })
+            console.log(err.message);
           });
-          setParticipant({
-            name: "",
-            email: "",
-            rollno: "",
-            phone_no: null,
-            college: "",
-          });
-        })
-        .catch((err) => {
-          toast.error("Invalid entry please try again...")
-          console.log(err.message);
-        });
+      }
     }
+    
   };
 
   // individual participant
@@ -282,7 +287,7 @@ const Form = ({ isMobile, eventDetails }) => {
               type="text"
               className="w-100 form-input pl-3 mt-4"
               id="eventName"
-              value={eventDetails.eventName}
+              value={"Front End 101"}
               disabled
             />
             <input
@@ -334,7 +339,7 @@ const Form = ({ isMobile, eventDetails }) => {
               type="text"
               className="w-100 form-input pl-3 mt-4"
               id="eventName"
-              value={eventDetails.eventName}
+              value={"Front"}
               disabled
             />
             <input
