@@ -9,7 +9,7 @@ const Form = ({ isMobile, eventDetails }) => {
   const [participant, setParticipant] = useState({
     name: "",
     email: "",
-    rollno: "",
+    roll_no: "",
     phone_no: null,
     college: "",
   });
@@ -112,7 +112,7 @@ const Form = ({ isMobile, eventDetails }) => {
     e.preventDefault();
     console.log({ ...participant });
     const id = toast.loading("Registering...");
-    if(participant.phone_no == null || participant.phone_no.length < 10 || participant.rollno == "" || participant.name == ""){
+    if(participant.phone_no == null || participant.phone_no.length < 10 || participant.roll_no == "" || participant.name == ""){
       toast.error("Please enter all the fields", {
         theme: "dark",
       });
@@ -137,7 +137,7 @@ const Form = ({ isMobile, eventDetails }) => {
             setParticipant({
               name: "",
               email: "",
-              rollno: "",
+              roll_no: "",
               phone_no: null,
               college: "",
             });
@@ -176,7 +176,7 @@ const Form = ({ isMobile, eventDetails }) => {
   const handleRollnoChange = (e) => {
     setParticipant({
       ...participant,
-      rollno: e.target.value,
+      roll_no: e.target.value,
     });
   };
 
