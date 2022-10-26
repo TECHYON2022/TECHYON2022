@@ -111,7 +111,7 @@ export const computerEvents = [
           "Decisions made by the Coordinator/Company will be final in case any problems."
         ],
         FAQs: [
-          "1. Who can participate? Ans - Any student from BE COMP from Padre Conceicao College of Engineering can participate. ",
+          "1. Who can participate? Ans - Any student of BE COMP from Padre Conceicao College of Engineering can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
