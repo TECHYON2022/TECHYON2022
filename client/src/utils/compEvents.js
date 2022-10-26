@@ -111,7 +111,7 @@ export const computerEvents = [
           "Decisions made by the Coordinator/Company will be final in case any problems."
         ],
         FAQs: [
-          "1. Who can participate? Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+          "1. Who can participate? Ans - Any student from BE COMP from Padre Conceicao College of Engineering can participate. ",
           "2. Is there a registration fee? Ans - No registration fee",
           "Decision taken by Co-Ordinators will be final in case any discrepancies!",
         ],
@@ -216,7 +216,7 @@ export const computerEvents = [
       // this is to be changed
       form: "https://bit.ly/efootball_comp",
       poster: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/posters/eFootbalPoster.jpg",
-      rulebook: "#",
+      rulebook: "https://github.com/TECHYON2022/techyonAssets/raw/main/COMP/rulebook/efootball.pdf",
       image: "https://raw.githubusercontent.com/TECHYON2022/techyonAssets/main/COMP/thumbnail/eFootball™ 2023.png",
     },
     {
